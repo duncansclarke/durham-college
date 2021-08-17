@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Interactive Elements</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Added Styles -->
+
+  <!-- Bootstrap CDN CSS -->
+  <link rel="stylesheet" href="../assets/thirdpartylib/bootstrap-4.4.1/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="../assets/thirdpartylib/fontawesome-free-5.12.0-web/css/all.css">
+  <!-- Google Fonts CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap" rel="stylesheet">
+  <!-- D2L Daylight Course Styles -->
+  <link rel="stylesheet" href="../assets/css/main.min.css">
+  <!-- Durham College Styles -->
+  <link rel="stylesheet" href="../css/dcss.css"> 
+
+</head>
+
+<body class="content" role="document">
+	<div class="container-fluid">
+		<main>
+
+    <div class="banner-img fullwidth-wrapper">
+      <img src="../dc-images/banners/banner-13.jpg" alt="banner">
+    </div>
+
+    <!-- Start of Welcome Message -->
+
+      <h1 class="text-center">Interactive Elements</h1>
+
+      <p style="text-align: center;">This page demonstrates many different options to present content.</p>
+      <p>These resources require intermediate skills with DC Connect and HTML to work with. If you have any questions please contact the <a href="https://durhamcollege.ca/cafe/about/talk-to-us/" target="_blank" rel="noopener">CAFE.</a></p>
+
+      <hr />
+
+          <h2 style="text-align: center;">Using the resources on this page.</h2>
+
+          <p>To use these resources please access this page's HTML Editor by pressing the <strong>Edit HTML</strong> button found just below the end of content on the left side. <img src="imgs/Lowerlieft_editHTML.jpg" class="img-fluid" alt="location of the page HTML edit button, after the content to the lower left"></p>
+
+          <p>Then highlight and select your content, including everything between "<span class="start_end_tag">start copy</span>" and "<span class="start_end_tag">end copy</span>". Right click and select copy and proceed to the content page you wish to paste into. Access the HTML editor of this page and paste your content where you'd like.</p>
+
+      <hr />
+
+      <h2 style="text-align: center;">Tabs Example</h2>
+
+      <hr />
+
+      <p class="start_end_tag">Start copy</p>
+
+      <div class="bs-callout">
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <p>1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <p>2 - Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        </div>
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <p>3 - At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="start_end_tag">End copy</p>
+
+      <hr />
+
+      <h2 style="text-align: center;">Accordian Example</h2>
+
+      <hr />
+
+      <p class="start_end_tag">Start copy</p>
+
+        <!-- Start of Accordion -->
+
+          <div id="accordion" role="tablist" aria-multiselectable="true">
+
+            <!-- Start of Card One -->
+              <div class="card rounded-0" style="margin-bottom: 20px;">
+                  <div class="card-header" role="tab" id="headingOne">
+                    <h3 class="card-heading" style="margin-top: 0px; margin-bottom: 0px;">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="d-block">
+                          Student Conduct and Digital Citizenship
+                          <img src="../assets/img/plus.svg" class="open_sign" alt="Open Symbol" style="margin-top: 10px;">
+                      </a>
+                      </h3>
+                  </div>
+
+                  <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="card-body">
+                          <p><a href="https://durhamcollege.ca/wp-content/uploads/student-conduct-policy.pdf" target="_blank" rel="noopener">Durham College's Student Conduct policy</a> refers to maintaining a respectful learning environment as well as demonstrating respectful digital citizenship. <a href="https://durhamcollege.ca/wp-content/uploads/Durham-College-Standard-Definitions.pdf" target="_blank" rel="noopener">Digital citizenship</a> involves the understanding that online conduct, regardless of where or when the conduct occurs, can have the same impact on the learning environment as in-person comments and behaviours.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Start of Card Two -->
+              <div class="card rounded-0" style="margin-bottom: 20px;">
+                <div class="card-header" role="tab" id="headingTwo">
+                    <h3 class="card-heading" style="margin-top: 0px; margin-bottom: 0px;">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" class="d-block">
+                          Personal Data and Privacy
+                          <img src="../assets/img/plus.svg" class="open_sign" alt="Open Symbol" style="margin-top: 10px;">
+                      </a>
+                      </h3>
+                  </div>
+
+                  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div class="card-body">
+                          <p>To understand how to protect your data and your rights to privacy on campus, see the <a href="https://durhamcollege.ca/about/governance/information-access-and-privacy/freedom-of-information-and-protection-of-privacy" target="_blank" rel="noopener">Freedom of information and protection of privacy</a> at DC.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Start of Card Three -->
+              <div class="card rounded-0" style="margin-bottom: 20px;">
+                <div class="card-header" role="tab" id="headingThree">
+                    <h3 class="card-heading" style="margin-top: 0px; margin-bottom: 0px;">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree" class="d-block">
+                          Academic Integrity
+                          <img src="../assets/img/plus.svg" class="open_sign" alt="Open Symbol" style="margin-top: 10px;">
+                      </a>
+                      </h3>
+                  </div>
+
+                  <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                      <div class="card-body">
+                          <p>To understand academic integrity at DC, see the <a href="https://durhamcollege.ca/wp-content/uploads/ACAD-101-Academic-Integrity.pdf" target="_blank" rel="noopener">Academic Integrity Policy and Procedure document.</a></p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Start of Card Four -->
+              <div class="card rounded-0" style="margin-bottom: 20px;">
+                <div class="card-header" role="tab" id="headingFour">
+                    <h3 class="card-heading" style="margin-top: 0px; margin-bottom: 0px;">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour" class="d-block">
+                          How to Cite Properly
+                          <img src="../assets/img/plus.svg" class="open_sign" alt="Open Symbol" style="margin-top: 10px;">
+                      </a>
+                      </h3>
+                  </div>
+
+                  <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                      <div class="card-body">
+                          <p>If you need help on how to properly cite your resources for an assignment, see the <a href="https://durhamcollege.ca/wp-content/uploads/apa.pdf" target="_blank" rel="noopener">APA Citation style guide</a> or <a href="https://guides.library.durhamcollege.ca/citation" target="_blank" rel="noopener">DC’s library</a> to read more about citation and writing.</p>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+        <!-- End of Accordion -->
+
+      <p class="start_end_tag">End copy</p>
+
+       <hr />
+
+      <h2 style="text-align: center;">Multiple Target Example</h2>
+
+      <hr />
+
+      <div>
+
+        <p class="start_end_tag">Start copy</p>
+
+        <p>Click the buttons to see how the reveal functions.</p>
+          <p>
+            <a class="btn btn-dcgreen" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+            <button class="btn btn-dcgreen" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+            <button class="btn btn-dcgreen" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                  <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  <p>
+                  Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p class="start_end_tag">End copy</p>
+
+      </div>
+
+      <hr />
+
+      <!-- Start of Durham College Footer -->
+        <div class="dc_footer row">
+
+            <div class="col-md-6 col-sm-12 footer_img_wrap">
+               <img src="../assets/img/ppl-logo.svg" class="img-fluid footer_img" alt="Durham College Part-time and Professional Learning Logo">
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+               <p class="dc_copyright">© Durham College. All rights reserved.</p>
+            </div>
+
+        </div>
+      <!-- End of Durham College Footer -->
+
+		</main>
+	</div>
+
+	<!-- jQuery Version 1.12.4 -->
+	<script src="../assets/thirdpartylib/jquery/jquery.min.js"></script>
+
+	<!-- Bootstrap CDN JS -->
+	<script src="../assets/thirdpartylib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome JS -->
+  <script src="../assets/thirdpartylib/fontawesome-free-5.12.0-web/js/all.js"></script>
+
+	<!-- JS Functions for advanced features -->
+  <script src="../assets/thirdpartylib/bootstrap-4.4.1/js/bundle.js" type="text/javascript"></script>
+  <script src="../assets/js/advance_js/bootstrap.js" type="text/javascript"></script>
+  <script src="../assets/js/advance_js/util.js" type="text/javascript"></script>
+
+	<!-- SVG Fallback JS -->
+	<script src="../assets/thirdpartylib/svg4everybody/svg4everybody.min.js"></script>
+
+	<!-- Course Scripts -->
+	<script src="../assets/js/main.min.js"></script>
+
+	<!-- DC Custom JS Functions -->
+	<script src="../js/custom.js" type="text/javascript"></script>
+
+</body>
+
+</html>
