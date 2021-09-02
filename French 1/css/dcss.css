@@ -16,6 +16,12 @@
   margin-top: -50px;
 }
 
+[data-tooltip]:focus:before {
+  opacity: 1;
+  background: #0b8261;
+  margin-top: -50px;
+}
+
 [data-tooltip]:not([data-tooltip-persistent]):before {
   pointer-events: none;
 }
@@ -469,6 +475,14 @@ img[style*="float: right"] {
 }
 
 /** Buttons **/
+
+button:hover {
+  background: #a9a9a9;
+}
+
+button:focus {
+  background: #a9a9a9;
+}
 
 .btn-dcgreen {
   padding: 10px 20px;
