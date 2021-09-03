@@ -476,6 +476,10 @@ img[style*="float: right"] {
 
 /** Buttons **/
 
+button {
+  background: none;
+}
+
 button:hover {
   background: #a9a9a9;
 }
