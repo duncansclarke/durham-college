@@ -60,7 +60,9 @@
 			Lisez le dialogue
 			<ol>
 				<li>Cliquez sur <mark style="background-color: yellow">les mots surlignés</mark> pour la prononciation et la traduction.</li>
-				<li></li>
+				<li>Cliquez sur les mots qui ont <mark style="background-color: red">le son</mark> on</li>
+				<li>Cliquez sur les verbes au <mark style="background-color: cyan">futur proche</mark>.</li>
+				<li>Cliquez sur le <mark style="background-color: lightgreen">pouvoir + infinitif.</mark> </li>
 			</ol>
 		</p>
 
@@ -70,9 +72,40 @@
 			function changeColor(id, color) {
 				document.getElementById(id).style.backgroundColor = color;
 			}
+			function addBorders() {
+				document.getElementById("id1").style.borderStyle = "solid";
+				document.getElementById("id1").style.borderColor = "red";
+				document.getElementById("id2").style.borderStyle = "solid";
+				document.getElementById("id2").style.borderColor = "red";
+				document.getElementById("id3").style.borderStyle = "solid";
+				document.getElementById("id3").style.borderColor = "red";
+				document.getElementById("id4").style.borderStyle = "solid";
+				document.getElementById("id4").style.borderColor = "red";
+				document.getElementById("id5").style.borderStyle = "solid";
+				document.getElementById("id5").style.borderColor = "lightgreen";
+				document.getElementById("id6").style.borderStyle = "solid";
+				document.getElementById("id6").style.borderColor = "lightgreen";
+				document.getElementById("id7").style.borderStyle = "solid";
+				document.getElementById("id7").style.borderColor = "cyan";
+				document.getElementById("id8").style.borderStyle = "solid";
+				document.getElementById("id8").style.borderColor = "cyan";
+				document.getElementById("id9").style.borderStyle = "solid";
+				document.getElementById("id9").style.borderColor = "cyan";
+				document.getElementById("id10").style.borderStyle = "solid";
+				document.getElementById("id10").style.borderColor = "red";
+				document.getElementById("id11").style.borderStyle = "solid";
+				document.getElementById("id11").style.borderColor = "cyan";
+				document.getElementById("id12").style.borderStyle = "solid";
+				document.getElementById("id12").style.borderColor = "red";
+			}
 		</script>
 
-		<audio id="player1" src="../../assets/Audio/souvent.mp3"></audio>
+		<audio id="player1" src="../../assets/Audio/depuis.mp3"></audio>
+		<audio id="player2" src="../../assets/Audio/souvent.mp3"></audio>
+		<audio id="player3" src="../../assets/Audio/mon-anniversaire.mp3"></audio>
+		<audio id="player4" src="../../assets/Audio/faire-la-fete.mp3"></audio>
+		<audio id="player5" src="../../assets/Audio/une-journee-de-conge.mp3"></audio>
+		<audio id="player6" src="../../assets/Audio/des-travaux.mp3"></audio>
 
 		<table class="table table-striped table-bordered table-hover">
 			<tbody>
@@ -80,7 +113,7 @@
 					<td>
 						<p>
 							Julie et Pauline
-							<a id='id1' onclick="changeColor('id1', 'red')">
+							<a id='id1' onclick="changeColor('id1', 'red')" style="cursor:pointer">
 								sont
 							</a>
 							amies
@@ -92,17 +125,125 @@
 								depuis
 							</mark>
 							l’école secondaire, elles voyagent
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player2').play();"
+								tabindex='2' onfocus="document.getElementById('player2').play();" data-tooltip="since">
+								souvent
+							</mark>
+							ensemble et elles s’aiment beaucoup. Julie téléphone à Pauline pour l’inviter à
+							<a id='id2' onclick="changeColor('id2', 'red')" style="cursor:pointer">
+								son
+							</a>
+							anniversaire:
+							<br/>
+							<br/>
+							<b>Julie:</b> Allô Pauline, c’est Julie, comment vas –tu?
+							<br/>
+							<br/>
+							<b>Pauline:</b> Merci, très bien, et toi?
+							<br/>
+							<br/>
+							Julie: Je vais très bien, je suis super excitée, je fête 
+							<a id='id3' onclick="changeColor('id3', 'red')" style="cursor:pointer">
+								mon
+							</a>
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player3').play();"
+								tabindex='3' onfocus="document.getElementById('player3').play();" data-tooltip="my birthday">
+								anniversaire
+							</mark>
+							vendredi, j’ai 21 ans. Je t’invite à venir chez-moi pour 
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player4').play();"
+								tabindex='4' onfocus="document.getElementById('player4').play();" data-tooltip="to party">
+								faire la fête.
+							</mark>
+							<br/>
+							<br/>
+							<b>Pauline:</b> Super! À quelle heure commence la fête? Je travaille vendredi toute la journée. Je dois donc demander une
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player5').play();"
+								tabindex='5' onfocus="document.getElementById('player5').play();" data-tooltip="a day off">
+								journée de congé.
+							</mark>
+							<br/>
+							<br/>
+							<b>Julie:</b> Non, ce n’est pas nécessaire, tu peux venir à 16 heures? 
+							<a id='id4' onclick="changeColor('id4', 'red')" style="cursor:pointer">
+								On
+							</a>
+							a tellement de choses à faire avant le souper et la soirée.
+							<br/>
+							<br/>
+							<b>Pauline:</b> 
+							<a id='id5' onclick="changeColor('id5', 'lightgreen')" style="cursor:pointer">
+								Peux-tu répéter?
+							</a>
+							Je dois venir avant ou après 16h? Il y a 
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player6').play();"
+								tabindex='6' onfocus="document.getElementById('player6').play();" data-tooltip="construction work">
+								des travaux
+							</mark>
+							dans ma rue et je t'entends très mal.
+							<br/>
+							<br/>
+							<b>Julie:</b> Sans problème, 
+							<a id='id6' onclick="changeColor('id6', 'lightgreen')" style="cursor:pointer">
+								tu peux venir
+							</a>
+							à 16h.
+							<br/>
+							<br/>
+							<b>Pauline:</b> D'accord,
+							<a id='id7' onclick="changeColor('id7', 'cyan')" style="cursor:pointer">
+								je vais venir
+							</a>
+							et
+							<a id='id8' onclick="changeColor('id8', 'cyan')" style="cursor:pointer">
+								je vais apporter
+							</a>
+							avec moi une belle surprise. 
+							<a id='id9' onclick="changeColor('id9', 'cyan')" style="cursor:pointer">
+								Tu vas inviter
+							</a>
+							tous nos amis?
+							<br/>
+							<br/>
+							<b>Julie:</b> Non, juste toi et moi. 
+							<a id='id10' onclick="changeColor('id10', 'red')" style="cursor:pointer">
+								On
+							</a>
+							<a id='id11' onclick="changeColor('id11', 'cyan')" style="cursor:pointer">
+								va passer
+							</a>
+							une belle soirée. Je suis tellement 
+							<a id='id12' onclick="changeColor('id12', 'red')" style="cursor:pointer">
+								contente
+							</a>
+							. À vendredi!
 						</p>
 					</td>
 				</tr>
 			</tbody>
 		</table>
 
-		
-		<hr>
+		<button onclick="addBorders()" style="height: 35px;">
+			<p>
+				Show Solution
+			</p>
+		</button>
 
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<p>
+			<b>
+				Écoutez le dialogue au complet.
+			</b>
+		</p>
 		
-		
+		<audio controls>
+			<source src="../../assets/audio/julie-pauline-fulldialogue.mp3">
+			Your browser does not support the audio element.
+		</audio>
 
 
 
