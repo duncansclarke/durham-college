@@ -24,47 +24,6 @@
 
 </head>
 
-<!-- POPUP JS -->
-<script>
-	// Get the popups
-	var modal1 = document.getElementById("modal1");
-	var modal2 = document.getElementById("modal2");
-
-	// Get the triggers for the popups
-	var trigger1 = document.getElementById("modalTrigger1");
-	var trigger2 = document.getElementById("modalTrigger2");
-
-	// Get the elements that closes the popups
-	var span1 = document.getElementById("close1")
-	var span2 = document.getElementById("close2")
-
-	// Open the popup when the trigger is clicked
-	trigger1.onclick = function () {
-		modal1.style.display = "block";
-	}
-	trigger2.onclick = function () {
-		modal2.style.display = "block";
-	}
-
-	// Close the popup when the x is clicked
-	span1.onclick = function () {
-		modal1.style.display = "none";
-	}
-	span2.onclick = function () {
-		modal2.style.display = "none";
-	}
-
-	// Close the popup when the user clicks outside of it
-	window.onclick = function (event) {
-		if (event.target == modal1) {
-			modal1.style.display = "none";
-		}
-		if (event.target == modal2) {
-			modal2.style.display = "none";
-		}
-	}
-</script>
-
 <body class="content" role="document">
 	<div class="container-fluid">
 		<main>
@@ -161,6 +120,7 @@
 						</div>
 					</div>
 				</div>
+
 				
 				<!-- POPUP 1 CONTENT -->
 				<div id="modal1" class="modal">
@@ -313,6 +273,47 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- POPUP JS -->
+				<script>
+					// Get the popups
+					var modal1 = document.getElementById("modal1");
+					var modal2 = document.getElementById("modal2");
+
+					// Get the triggers for the popups
+					var trigger1 = document.getElementById("modalTrigger1");
+					var trigger2 = document.getElementById("modalTrigger2");
+
+					// Get the elements that closes the popups
+					var span1 = document.getElementById("close1")
+					var span2 = document.getElementById("close2")
+
+					// Open the popup when the trigger is clicked
+					trigger1.onclick = function () {
+						modal1.style.display = "block";
+					}
+					trigger2.onclick = function () {
+						modal2.style.display = "block";
+					}
+
+					// Close the popup when the x is clicked
+					span1.onclick = function () {
+						modal1.style.display = "none";
+					}
+					span2.onclick = function () {
+						modal2.style.display = "none";
+					}
+
+					// Close the popup when the user clicks outside of it
+					window.onclick = function (event) {
+						if (event.target == modal1) {
+							modal1.style.display = "none";
+						}
+						if (event.target == modal2) {
+							modal2.style.display = "none";
+						}
+					}
+				</script>
 
 				<hr>
 
@@ -575,8 +576,40 @@
 
 				<p><b>NEED VIDEO</b></p>
 
-				
+				<p>Pronunciation practice</p>
 
+				<div id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="card rounded-0" style="margin-bottom: 20px;">
+						<div class="card-header" role="tab" id="heading1">
+							<h3 class="card-heading" style="margin-top: 0px; margin-bottom: 0px;"><a data-toggle="collapse"
+									data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1"
+									class="d-block"> Select this button to view the conversation answers
+									<img src="../assets/img/plus.svg" class="open_sign" alt="Open Symbol" style="margin-top: 10px;" />
+								</a>
+							</h3>
+						</div>
+						<div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="heading1">
+							<div class="card-body">
+								<p>
+									<b>Answer | Répondez :</b><br/>
+									<br />
+									Très bien merci. Là, je suis en train de bronzer au bord de la piscine. Après, je vais aller visiter un musée d’art
+									moderne en ville.<br />
+									<br />
+									<br />
+									Ce soir, je vais diner dans un restaurant du centre-ville. C’est le plus vieux restaurant de la ville.<br />
+									<br />
+									<br />
+									Avec plaisir! Maintenant, je vais aller rejoindre des amis pour un apéritif et une petite partie de cartes. Ensuite, je
+									vais me préparer pour aller en ville.<br />
+									<br />
+									<br />
+									Merci. Passe une très belle fin de journée!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 
 
 				<hr />
