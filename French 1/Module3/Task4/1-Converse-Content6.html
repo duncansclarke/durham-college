@@ -29,7 +29,7 @@
 		<main>
 		
 
-			<h1 class="text-center">French 1: Module 2 - Converse</h1>
+			<h1 class="text-center">French 1: Module 3 - Converse</h1>
 
 
 		
@@ -38,7 +38,188 @@
 
 		<h2>Validate your learning</h2>
 
+		<p>
+			<b>Sélectionnez la réponse appropriée pour la question.</b>
+		</p>
 
+		<iframe src="https://h5pstudio.ecampusontario.ca/h5p/30793/embed" width="993" height="256" frameborder="0"
+			allowfullscreen="allowfullscreen"></iframe>
+		<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
+			charset="UTF-8"></script>
+
+		<hr>
+
+		<p>
+			<b>Regardez la vidéo interactive.</b>
+		</p>
+
+		<iframe src="https://h5pstudio.ecampusontario.ca/h5p/30794/embed" width="993" height="620" frameborder="0"
+			allowfullscreen="allowfullscreen"></iframe>
+		<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
+			charset="UTF-8"></script>
+
+		<hr>
+		
+		<p>
+			<b>Read the dialogue.</b>
+		<ol>
+			<li>Click on the <mark style="background-color: yellow">highlighted words</mark> to listen to the pronunciation and
+				view the translation.</li>
+			<li>Click on the words that have the sound
+				<audio id="player1" src="../../assets/Audio/ay.wav"></audio>
+				<mark style="background-color: #FF7F7F" onclick="document.getElementById('player1').play()">
+					<i class='fa fa-volume-up fa' style="cursor:pointer;"></i>
+					[ay]</mark>
+			</li>
+		</ol>
+		</p>
+		
+		<br />
+		
+		<script>
+			function changeColor(id, color) {
+				document.getElementById(id).style.backgroundColor = color;
+			}
+			function addBorders() {
+				document.getElementById("id1").style.borderStyle = "solid";
+				document.getElementById("id1").style.borderColor = "#FF7F7F";
+				document.getElementById("id2").style.borderStyle = "solid";
+				document.getElementById("id2").style.borderColor = "#FF7F7F";
+				document.getElementById("id3").style.borderStyle = "solid";
+				document.getElementById("id3").style.borderColor = "#FF7F7F";
+				document.getElementById("id4").style.borderStyle = "solid";
+				document.getElementById("id4").style.borderColor = "#FF7F7F";
+				document.getElementById("id5").style.borderStyle = "solid";
+				document.getElementById("id5").style.borderColor = "#FF7F7F";
+				document.getElementById("id6").style.borderStyle = "solid";
+				document.getElementById("id6").style.borderColor = "#FF7F7F";
+			}
+		</script>
+		
+		<audio id="player2" src="../../assets/Audio/m3-t4-highlight1.wav"></audio>
+		<audio id="player3" src="../../assets/Audio/m3-t4-highlight2.wav"></audio>
+		<audio id="player4" src="../../assets/Audio/m3-t4-highlight3.wav"></audio>
+		<audio id="player5" src="../../assets/Audio/m3-t4-highlight4.wav"></audio>
+		<audio id="player6" src="../../assets/Audio/m3-t4-highlight5.wav"></audio>
+		<audio id="player7" src="../../assets/Audio/m3-t4-highlight6.wav"></audio>
+		<audio id="player8" src="../../assets/Audio/m3-t4-highlight7.wav"></audio>
+		
+		<table class="table table-striped table-bordered table-hover">
+			<tbody>
+				<tr>
+					<td>
+						<p>
+							<b>Le réchauffement</b>
+						</p>
+						<p>
+							<b>Jude:</b> Marc, 
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player2').play();"
+								tabindex='1' onfocus="document.getElementById('player2').play();" data-tooltip="over here">
+								par ici
+							</mark>.
+						</p>
+						<p>
+							<b>Marc:</b> Salut!
+						</p>
+						<p>
+							<b>Jude:</b> 
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player3').play();"
+								tabindex='2' onfocus="document.getElementById('player3').play();" data-tooltip="you remember">
+								Tu te souviens
+							</mark> 
+							de 
+							<a id='id1' onclick="changeColor('id1', '#FF7F7F')" style="cursor:pointer">
+								Léa
+							</a>.
+						</p>
+						<p>
+							<b>Marc:</b> Oui, 
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player4').play();"
+								tabindex='3' onfocus="document.getElementById('player4').play();" data-tooltip="of course">
+								bien sûr
+							</mark>. 
+							Salut 
+							<a id='id2' onclick="changeColor('id2', '#FF7F7F')" style="cursor:pointer">
+								Léa
+							</a>.
+						</p>
+						<p>
+							<b>Léa:</b> Salut.
+						</p>
+						<p>
+							<b>Jude:</b> On attend toujours l’amie de Léa mais on peut 
+							<a id='id3' onclick="changeColor('id3', '#FF7F7F')" style="cursor:pointer">
+								commencer
+							</a>.
+						</p>
+						<p>
+							<b>Serveur:</b> Bonsoir, qu’est-ce que 
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player5').play();"
+								tabindex='4' onfocus="document.getElementById('player5').play();" data-tooltip="what are you having?">
+								vous 
+								<a id='id4' onclick="changeColor('id4', '#FF7F7F')" style="cursor:pointer">
+									prenez
+								</a>
+							</mark>?
+						</p>
+						<p>
+							<b>Léa:</b> 
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player6').play();"
+								tabindex='5' onfocus="document.getElementById('player6').play();" data-tooltip="a glass">
+								Un verre,
+							</mark>
+							s'il vous plaît.
+						</p>
+						<p>
+							<b>Jude:</b>
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player7').play();"
+								tabindex='6' onfocus="document.getElementById('player7').play();" data-tooltip="a pint">
+								Une pinte,
+							</mark> 
+							merci.
+						</p>
+						<p>
+							<b>Marc:</b> Pour moi, 
+							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player8').play();"
+								tabindex='7' onfocus="document.getElementById('player8').play();" data-tooltip="warm cider">
+								un cidre chaud
+							</mark> 
+							pour 
+							<a id='id5' onclick="changeColor('id5', '#FF7F7F')" style="cursor:pointer">
+								réchauffer.
+							</a>
+							Mes amis, la pomme, c’est le goût 
+							<a id='id6' onclick="changeColor('id6', '#FF7F7F')" style="cursor:pointer">
+								d’été
+							</a>...
+						</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<button onclick="addBorders()" style="height: 35px; font-size: 20px">
+			Show Solution
+		</button>
+		
+		
+		<br />
+		<br />
+		<br />
+		<br />
+		
+		<p>
+			<b>
+				Écoutez le dialogue au complet.
+			</b>
+		</p>
+		
+		<audio controls>
+			<source src="../../assets/audio/m3-t4-full-dialogue.wav">
+			Your browser does not support the audio element.
+		</audio>
+		
+		<hr>
     	<!-- Start of Durham College Footer -->
 		
 		<!-- For changing the logo image or styles of the footer, you can refer to custom.js file --> 
