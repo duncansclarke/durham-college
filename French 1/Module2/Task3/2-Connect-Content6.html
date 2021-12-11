@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Connect - Interpret</title>
+	<title>Connect - Interact</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,19 +22,654 @@
 	<!-- Durham College Styles -->
 	<link rel="stylesheet" href="../../css/dcss.css"> 
 
+	<style>
+		.background-frame1{
+			height: 600px;
+			background-size: 1130px 600px;
+   			background-image: 
+       			url("../../assets/img/m2-t3-connect-interact-1.jpeg");
+		}
+
+		.background-frame2{
+			height: 600px;
+			background-size: 1130px 600px;
+   			background-image: 
+       			url("../../assets/img/m2-t3-connect-interact-2.jpeg");
+		}
+
+		#Progress1 {
+		width: 100%;
+		background-color: #ddd;
+		}
+
+		#Bar1 {
+		width: 1%;
+		height: 30px;
+		background-color: #04AA6D;
+		}
+
+		#Progress2 {
+		width: 100%;
+		background-color: #ddd;
+		}
+
+		#Bar2 {
+		width: 1%;
+		height: 30px;
+		background-color: #04AA6D;
+		}
+
+		.task1, .task2, .task3, .task4, .task5, .task6, .task7, .task8, .task9, .task10{
+			position: relative;
+			height: 50px;
+			width: 200px;
+			border: solid 3px black;
+			background: white;
+			font-size: 18px;
+			float: left;
+			width: 200px;
+			height: 100px;
+			padding: 10px;
+		}
+
+		.task1{
+		left: 770px;
+       	top: 490px;
+		}
+		.task2{
+		left: 700px;
+		top: 250px;
+		}
+		.task3{
+		left: -250px;
+		top: 120px;
+		}
+		.task4{
+		left: -300px;
+		top: 490px;
+		}
+		.task5{
+		left: -300px;
+		top: 300px;
+		}
+
+		.task6{
+		left: 650px;
+		top: 500px;
+		}
+		.task7{
+		left: -50px;
+		top: 300px;
+		}
+		.task8{
+		left: -250px;
+		top: 100px;
+		}
+		.task9{
+		left: 50px;
+		top: 150px;
+		}
+		.task10{
+		left: 100px;
+		top: 370px;
+		}
+	
+		.startBox {
+			font-size: 18px;
+			float: left;
+			width: 200px;
+			height: 150px;
+			margin: 10px;
+			padding: 10px;
+			border: 1px solid black;
+			text-align: center;
+		}
+	</style>
+
 </head>
 
 <body class="content" role="document">
 	<div class="container-fluid">
 		<main>
-		
 
 		<h1 class="text-center">French 1: Module 2 - Connect</h1>
-
+		
 		<hr>
-		<h2>Interpret</h2>
+		<h2>Interact</h2>
+
+		
+		<h3>Respond to online content | Répondre au contenu en ligne</h3>
+		
+		<p>
+			<b>Use resources available to you to successfully complete the missions.</b>
+		</p>
+		
+		<hr>
+
+		<h3>Mission sous-marine</h3>
+		
+		<p>
+			Drag and drop actions to locations on the image.
+		</p>
+		
+		<div class="startBox" ondrop="drop001(event)">
+			<audio id="player1" src="../../assets/Audio/m2-t3-game1-1.mp3"></audio>
+			<button onclick="document.getElementById('player1').play()">
+				<i class='fa fa-volume-up fa'></i>
+			</button>
+			<br>
+			<br>
+			<text ondragstart="dragStart001(event)" draggable="true" id="target001">
+				Montez à l'échelle.
+			</text>
+		</div>
+		
+		<div class="startBox" ondrop="drop002(event)">
+			<audio id="player2" src="../../assets/Audio/m2-t3-game1-2.mp3"></audio>
+			<button onclick="document.getElementById('player2').play()">
+				<i class='fa fa-volume-up fa'></i>
+			</button>
+			<br>
+			<br>
+			<text ondragstart="dragStart002(event)" draggable="true" id="target002">
+				Regardez par la fenêtre cerclée sur la porte au fond.
+			</text>
+		</div>
+		
+		<div class="startBox" ondrop="drop003(event)">
+			<audio id="player3" src="../../assets/Audio/m2-t3-game1-3.mp3"></audio>
+			<button onclick="document.getElementById('player3').play()">
+				<i class='fa fa-volume-up fa'></i>
+			</button>
+			<br>
+			<br>
+			<text ondragstart="dragStart003(event)" draggable="true" id="target003">
+				Enlevez les algues autour du tuyau en cuivre.
+			</text>
+		</div>
+		
+		<div class="startBox" ondrop="drop004(event)">
+			<audio id="player4" src="../../assets/Audio/m2-t3-game1-4.mp3"></audio>
+			<button onclick="document.getElementById('player4').play()">
+				<i class='fa fa-volume-up fa'></i>
+			</button>
+			<br>
+			<br>
+			<text ondragstart="dragStart004(event)" draggable="true" id="target004">
+				Tirez la poignée noire.
+			</text>
+		</div>
+		
+		<div class="startBox" ondrop="drop005(event)">
+			<audio id="player5" src="../../assets/Audio/m2-t3-game1-5.mp3"></audio>
+			<button onclick="document.getElementById('player5').play()">
+				<i class='fa fa-volume-up fa'></i>
+			</button>
+			<br>
+			<br>
+			<text ondragstart="dragStart005(event)" draggable="true" id="target005">
+				Tapez sur les tiroirs au-dessus des deux rampes et au-dessous du cercle.
+			</text>
+		</div>
 		
 
+		<table class="table table-striped table-bordered table-hover">
+			<tbody>
+				<tr>
+					<td>
+						<div class="background-frame1">
+							<div class="task1" ondrop="drop1(event)" ondragover="allowDrop1(event)" id="place1"></div>
+							
+							<div class="task2" ondrop="drop2(event)" ondragover="allowDrop2(event)" id="place2"></div>
+							
+							<div class="task3" ondrop="drop3(event)" ondragover="allowDrop3(event)" id="place3"></div>
+							
+							<div class="task4" ondrop="drop4(event)" ondragover="allowDrop4(event)" id="place4"></div>
+							
+							<div class="task5" ondrop="drop5(event)" ondragover="allowDrop5(event)" id="place5"></div>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<p>
+			Image source: 2021 Durham College Game Art Sizzle Reel, Dylan Abernethy
+		</p>
+		
+
+		<div id="Progress1">
+			<div id="Bar1"></div>
+		</div>
+
+		<br>
+
+		<p>Score: <text id="score1">0</text></p>
+		
+		<button onclick="submit1()">Submit</button>
+		<br>
+		<br>
+		<p id="message001"></p>
+		
+
+		<table class="table table-striped table-bordered table-hover">
+			<caption>les publicités</caption>
+			<tbody>
+				<tr>
+					<td>
+						<p style="text-align: center">
+							Planifier votre escapade!
+						</p>
+						<br>
+						<img src="../../assets/img/ad3.jpeg" width="100%">
+					</td>
+					<td>
+						<p style="text-align: center">
+							Soldes d'été: Économisez 25%… sur les maillots de bain
+						</p>
+						<img src="../../assets/img/ad1.jpeg" width="100%">
+					</td>
+					<td>
+						<p style="text-align: center">
+							SOLDES: Jusqu'à -40% sur les baggages...
+						</p>
+						<img src="../../assets/img/ad2.jpeg" width="100%">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			Photography on courtesy of <a href="https://www.pexels.com/" target="_blank" rel="noopener">Pexels</a>.
+		</p>
+
+		<iframe src="https://h5pstudio.ecampusontario.ca/h5p/32681/embed" width="993" height="386" frameborder="0"
+			allowfullscreen="allowfullscreen"></iframe>
+		<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
+			charset="UTF-8"></script>
+
+		<hr>
+
+		<!-- GAME 2 -->
+		
+		<h3>Mission ménage</h3>
+		
+		<p>
+			Drag and drop actions to locations on the image.
+		</p>
+		
+		<div class="startBox" ondrop="drop006(event)">
+			<audio id="player6" src="../../assets/Audio/m2-t3-game2-1.mp3"></audio>
+			<button onclick="document.getElementById('player6').play()">
+				<i class='fa fa-volume-up fa'></i>
+			</button>
+			<br>
+			<br>
+			<text ondragstart="dragStart006(event)" draggable="true" id="target006">
+				Balayez le sol.
+			</text>
+		</div>
+		
+		<div class="startBox" ondrop="drop007(event)">
+			<audio id="player7" src="../../assets/Audio/m2-t3-game2-2.mp3"></audio>
+			<button onclick="document.getElementById('player7').play()">
+				<i class='fa fa-volume-up fa'></i>
+			</button>
+			<br>
+			<br>
+			<text ondragstart="dragStart007(event)" draggable="true" id="target007">
+				Mettez le livre sur le bureau.
+			</text>
+		</div>
+		
+		<div class="startBox" ondrop="drop008(event)">
+			<audio id="player8" src="../../assets/Audio/m2-t3-game2-3.mp3"></audio>
+			<button onclick="document.getElementById('player8').play()">
+				<i class='fa fa-volume-up fa'></i>
+			</button>
+			<br>
+			<br>
+			<text ondragstart="dragStart008(event)" draggable="true" id="target008">
+				Passez l'aspirateur sur les murs derrière le bureau.
+			</text>
+		</div>
+		
+		<div class="startBox" ondrop="drop009(event)">
+			<audio id="player9" src="../../assets/Audio/m2-t3-game2-4.mp3"></audio>
+			<button onclick="document.getElementById('player9').play()">
+				<i class='fa fa-volume-up fa'></i>
+			</button>
+			<br>
+			<br>
+			<text ondragstart="dragStart009(event)" draggable="true" id="target009">
+				Dépoussiérez le tableau.
+			</text>
+		</div>
+		
+		<div class="startBox" ondrop="drop010(event)">
+			<audio id="player10" src="../../assets/Audio/m2-t3-game2-5.mp3"></audio>
+			<button onclick="document.getElementById('player10').play()">
+				<i class='fa fa-volume-up fa'></i>
+			</button>
+			<br>
+			<br>
+			<text ondragstart="dragStart010(event)" draggable="true" id="target010">
+				Ramassez les rouleaux de papier sous le tableau.
+			</text>
+		</div>
+		
+		
+		<table class="table table-striped table-bordered table-hover">
+			<tbody>
+				<tr>
+					<td>
+						<div class="background-frame2">
+							<div class="task6" ondrop="drop6(event)" ondragover="allowDrop6(event)" id="place6"></div>
+		
+							<div class="task7" ondrop="drop7(event)" ondragover="allowDrop7(event)" id="place7"></div>
+		
+							<div class="task8" ondrop="drop8(event)" ondragover="allowDrop8(event)" id="place8"></div>
+		
+							<div class="task9" ondrop="drop9(event)" ondragover="allowDrop9(event)" id="place9"></div>
+		
+							<div class="task10" ondrop="drop10(event)" ondragover="allowDrop10(event)" id="place10"></div>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<p>
+			Image source: 2021 Durham College Game Art Sizzle Reel, Dylan Abernethy
+		</p>
+		
+		
+		<div id="Progress2">
+			<div id="Bar2"></div>
+		</div>
+		
+		<br>
+		
+		<p>Score: <text id="score2">0</text></p>
+		
+		<button onclick="submit2()">Submit</button>
+		<br>
+		<br>
+		<p id="message002"></p>
+		
+		<table class="table table-striped table-bordered table-hover">
+			<caption>les publicités</caption>
+			<tbody>
+				<tr>
+					<td width="25%">
+						<p style="text-align: center">
+							Trop de PUISSANCE. 92,95$. Rabais de 300$
+						</p>
+						<br>
+						<img src="../../assets/img/ad4.jpeg" width="100%">
+					</td>
+					<td width="25%">
+						<p style="text-align: center">
+							Beaucoup de CHOIX. Forfait d'étudiant 15%
+						</p>
+						<br>
+						<img src="../../assets/img/ad5.jpeg" width="100%">
+					</td>
+					<td width="25%"> 
+						<p style="text-align: center">
+							Une nécessité. Une capacité de 15 L. Sacs gratuits avec achat.
+						</p>
+						
+						<img src="../../assets/img/ad6.jpeg" width="100%">
+					</td>
+					<td width="25%">
+						<p style="text-align: center">
+							2 pour 22$. Brillant et doux. Illuminer votre vie!
+						</p>
+						<img src="../../assets/img/ad7.jpeg" width="100%" style="padding-top: 28px;">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			Photography on courtesy of <a href="https://www.pexels.com/" target="_blank" rel="noopener">Pexels</a>.
+		</p>
+
+		<iframe src="https://h5pstudio.ecampusontario.ca/h5p/32683/embed" width="993" height="386" frameborder="0"
+			allowfullscreen="allowfullscreen"></iframe>
+		<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
+			charset="UTF-8"></script>
+		
+		<script>
+
+			function setBar1(x) {
+					var elem = document.getElementById("Bar1");
+					elem.style.width = x + "%";
+			}
+			function setBar2(x) {
+					var elem = document.getElementById("Bar2");
+					elem.style.width = x + "%";
+			}
+
+			var b = 0;
+			var c = 0;
+			b++;
+			c++;
+
+			function dragStart001(event) {
+				event.dataTransfer.setData("choice1", event.target.id);
+			}
+
+			function dragStart002(event) {
+				event.dataTransfer.setData("choice2", event.target.id);
+			}
+
+			function dragStart003(event) {
+				event.dataTransfer.setData("choice3", event.target.id);
+			}
+
+			function dragStart004(event) {
+				event.dataTransfer.setData("choice4", event.target.id);
+			}
+
+			function dragStart005(event) {
+				event.dataTransfer.setData("choice5", event.target.id);
+			}
+
+			function dragStart006(event) {
+					event.dataTransfer.setData("choice6", event.target.id);
+				}
+
+			function dragStart007(event) {
+					event.dataTransfer.setData("choice7", event.target.id);
+				}
+
+			function dragStart008(event) {
+					event.dataTransfer.setData("choice8", event.target.id);
+				}
+
+			function dragStart009(event) {
+					event.dataTransfer.setData("choice9", event.target.id);
+				}
+
+			function dragStart010(event) {
+					event.dataTransfer.setData("choice10", event.target.id);
+			}
+
+			function allowDrop1(event) {
+				event.preventDefault();
+			}
+
+			function allowDrop2(event) {
+				event.preventDefault();
+			}
+
+			function allowDrop3(event) {
+				event.preventDefault();
+			}
+
+			function allowDrop4(event) {
+				event.preventDefault();
+			}
+
+			function allowDrop5(event) {
+				event.preventDefault();
+			}
+
+			function allowDrop6(event) {
+					event.preventDefault();
+				}
+
+			function allowDrop7(event) {
+					event.preventDefault();
+				}
+
+			function allowDrop8(event) {
+					event.preventDefault();
+				}
+
+			function allowDrop9(event) {
+					event.preventDefault();
+				}
+
+			function allowDrop10(event) {
+					event.preventDefault();
+				}
+
+			function drop1(event) {
+				var data = event.dataTransfer.getData("choice1");
+				event.target.appendChild(document.getElementById(data));
+				setBar1(b*20)
+				score1.innerHTML = b++;
+				place1.innerHTML = "Montez à l'échelle.";
+			}
+
+			function drop2(event) {
+				var data = event.dataTransfer.getData("choice2");
+				event.target.appendChild(document.getElementById(data));
+				setBar1(b * 20)
+				score1.innerHTML = b++;
+				place2.innerHTML = "Regardez par la fenêtre cerclée sur la porte au fond.";
+			}
+
+			function drop3(event) {
+				var data = event.dataTransfer.getData("choice3");
+				event.target.appendChild(document.getElementById(data));
+				setBar1(b * 20)
+				score1.innerHTML = b++;
+				place3.innerHTML = "Enlevez les algues autour du tuyau en cuivre.";
+			}
+
+			function drop4(event) {
+				var data = event.dataTransfer.getData("choice4");
+				event.target.appendChild(document.getElementById(data));
+				setBar1(b * 20)
+				score1.innerHTML = b++;
+				place4.innerHTML = "Tirez la poignée noire.";
+			}
+
+			function drop5(event) {
+				var data = event.dataTransfer.getData("choice5");
+				event.target.appendChild(document.getElementById(data));
+				setBar1(b * 20)
+				score1.innerHTML = b++;
+				place5.innerHTML = "Tapez sur les tiroirs au-dessus des deux rampes et au-dessous du cercle.";
+			}
+
+			function drop6(event) {
+					var data = event.dataTransfer.getData("choice6");
+					event.target.appendChild(document.getElementById(data));
+					setBar2(c * 20)
+					score2.innerHTML = c++;
+					place6.innerHTML = "Balayez le sol.";
+				}
+
+			function drop7(event) {
+					var data = event.dataTransfer.getData("choice7");
+					event.target.appendChild(document.getElementById(data));
+					setBar2(c * 20)
+					score2.innerHTML = c++;
+					place7.innerHTML = "Mettez le livre sur le bureau.";
+				}
+
+			function drop8(event) {
+					var data = event.dataTransfer.getData("choice8");
+					event.target.appendChild(document.getElementById(data));
+					setBar2(c * 20)
+					score2.innerHTML = c++;
+					place8.innerHTML = "Passez l'aspirateur sur les murs derrière le bureau.";
+				}
+
+			function drop9(event) {
+					var data = event.dataTransfer.getData("choice9");
+					event.target.appendChild(document.getElementById(data));
+					setBar2(c * 20)
+					score2.innerHTML = c++;
+					place9.innerHTML = "Dépoussiérez le tableau.";
+				}
+
+			function drop10(event) {
+					var data = event.dataTransfer.getData("choice10");
+					event.target.appendChild(document.getElementById(data));
+					setBar2(c * 20)
+					score2.innerHTML = c++;
+					place10.innerHTML = "Ramassez les rouleaux de papier sous le tableau.";
+				}
+
+			function drop001(event) {
+				event.preventDefault();
+			}
+
+			function drop002(event) {
+				event.preventDefault();
+			}
+
+			function drop003(event) {
+				event.preventDefault();
+
+			}
+
+			function drop004(event) {
+				event.preventDefault();
+			}
+
+			function drop005(event) {
+				event.preventDefault();
+			}
+
+			function drop006(event) {
+					event.preventDefault();
+				}
+
+			function drop007(event) {
+					event.preventDefault();
+				}
+
+			function drop008(event) {
+					event.preventDefault();
+				}
+
+			function drop009(event) {
+					event.preventDefault();
+				}
+
+			function drop0010(event) {
+					event.preventDefault();
+				}
+
+			function submit1() {
+					if (b > 5) {
+						message001.innerHTML = "Félicitations, vous avez gagné !";
+					}
+				}
+
+			function submit2() {
+					if (c > 5) {
+						message002.innerHTML = "Félicitations, vous avez gagné !";
+					}
+				}
+		</script>
+
+		<hr>
     	<!-- Start of Durham College Footer -->
 		
 		<!-- For changing the logo image or styles of the footer, you can refer to custom.js file --> 
