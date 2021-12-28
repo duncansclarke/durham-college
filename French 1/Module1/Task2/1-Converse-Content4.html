@@ -38,48 +38,51 @@
 		<p>
 			<b>Read the dialogue. Click on dialogue to listen to parts of the conversation.</b>
 		</p>
-
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
+		
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
 						<audio id="player1" src="../../assets/Audio/m1-t2-dialogue1.wav"></audio>
 						<a onclick="document.getElementById('player1').play()">
-							<img src="../../assets/img/m1-t2-dialogue1.png" width="90%" style="cursor: pointer;">
+							<img src="../../assets/img/m1-t2-dialogue1.png" width="90%" style="cursor: pointer;"
+							alt="Jude says 'Salut, c'est Lea'.">
 						</a>
-					</td>
-					<td>
-						<audio id="player2" src="../../assets/Audio/m1-t2-dialogue2.wav"></audio>
-						<a onclick="document.getElementById('player2').play()">
-							<img src="../../assets/img/m1-t2-dialogue2.png" width="92%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<audio id="player3" src="../../assets/Audio/m1-t2-dialogue3.wav"></audio>
-						<a onclick="document.getElementById('player3').play()">
-							<img src="../../assets/img/m1-t2-dialogue3.png" width="92%" style="cursor: pointer;">
-						</a>
-					</td>
-					<td>
-						<audio id="player4" src="../../assets/Audio/m1-t2-dialogue4.wav"></audio>
-						<a onclick="document.getElementById('player4').play()">
-							<img src="../../assets/img/m1-t2-dialogue4.png" width="90%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<audio id="player5" src="../../assets/Audio/m1-t2-dialogue5.wav"></audio>
-						<a onclick="document.getElementById('player5').play()">
-							<img src="../../assets/img/m1-t2-dialogue5.png" width="92%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-
+				</div>
+				<div class="col">
+					<audio id="player2" src="../../assets/Audio/m1-t2-dialogue2.wav"></audio>
+					<a onclick="document.getElementById('player2').play()">
+						<img src="../../assets/img/m1-t2-dialogue2.png" width="92%" style="cursor: pointer;"
+						alt="Marc says 'Bonjour, je m'appelle Marc. Je suis le frere de Jude. Lea replies 'Bonjour Marc. Je suis l'amie de Jude.'">
+					</a>
+				</div>
+			</div>
+			<div class="row align-items-start">
+				<div class="col">
+					<audio id="player3" src="../../assets/Audio/m1-t2-dialogue3.wav"></audio>
+					<a onclick="document.getElementById('player3').play()">
+						<img src="../../assets/img/m1-t2-dialogue3.png" width="92%" style="cursor: pointer;"
+						alt="Marc says 'Ravi de faire ta connaissance'. Lea replies 'Enchantee'">
+					</a>
+				</div>
+				<div class="col">
+					<audio id="player4" src="../../assets/Audio/m1-t2-dialogue4.wav"></audio>
+					<a onclick="document.getElementById('player4').play()">
+						<img src="../../assets/img/m1-t2-dialogue4.png" width="90%" style="cursor: pointer;"
+						alt="Jude says 'Voila les pommes. Un avant-gout d'ete en hiver. Lea replies 'Merci Jude'.">
+					</a>
+				</div>
+			</div>
+			<div class="row align-items-start">
+				<div class="col">
+					<audio id="player5" src="../../assets/Audio/m1-t2-dialogue5.wav"></audio>
+					<a onclick="document.getElementById('player5').play()">
+						<img src="../../assets/img/m1-t2-dialogue5.png" width="92%" style="cursor: pointer;"
+						alt="Jude and Lea both say 'A la prochaine.' and Marc says 'Au revoir.'">
+					</a>
+				</div>
+				<div class="col"></div>
+			</div>
+		</div>
 		<hr>
 
 		<p>
@@ -89,201 +92,207 @@
 			Audio recorder: Record and then listen to your speaking for the words below.
 		</p>
 
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<table class="table table-striped table-bordered table-hover">
-							<tbody>
-								<tr>
-									<td>
-										<audio id="player6" src="../../assets/Audio/salut.mp3"></audio>
-										<button onclick="document.getElementById('player6').play()">
-											<i class='fa fa-volume-up fa'></i>
-											salut
-										</button>
-									</td>
-									<td>
-										<audio id="player7" src="../../assets/Audio/enchantee.mp3"></audio>
-										<button onclick="document.getElementById('player7').play()">
-											<i class='fa fa-volume-up fa'></i>
-											enchantée
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player8" src="../../assets/Audio/Je mappelle.mp3"></audio>
-										<button onclick="document.getElementById('player8').play()">
-											<i class='fa fa-volume-up fa'></i>
-											Je m'appelle
-										</button>
-									</td>
-									<td>
-										<audio id="player9" src="../../assets/Audio/les.mp3"></audio>
-										<button onclick="document.getElementById('player9').play()">
-											<i class='fa fa-volume-up fa'></i>
-											les
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player10" src="../../assets/Audio/le frere.mp3"></audio>
-										<button onclick="document.getElementById('player10').play()">
-											<i class='fa fa-volume-up fa'></i>
-											le frère
-										</button>
-									</td>
-									<td>
-										<audio id="player11" src="../../assets/Audio/pommes.mp3"></audio>
-										<button onclick="document.getElementById('player11').play()">
-											<i class='fa fa-volume-up fa'></i>
-											pommes
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player12" src="../../assets/Audio/suis.mp3"></audio>
-										<button onclick="document.getElementById('player12').play()">
-											<i class='fa fa-volume-up fa'></i>
-											suis
-										</button>
-									</td>
-									<td>
-										<audio id="player13" src="../../assets/Audio/un.mp3"></audio>
-										<button onclick="document.getElementById('player13').play()">
-											<i class='fa fa-volume-up fa'></i>
-											un
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player14" src="../../assets/Audio/lamie.mp3"></audio>
-										<button onclick="document.getElementById('player14').play()">
-											<i class='fa fa-volume-up fa'></i>
-											l'amie
-										</button>
-									</td>
-									<td>
-										<audio id="player15" src="../../assets/Audio/avant-gout.mp3"></audio>
-										<button onclick="document.getElementById('player15').play()">
-											<i class='fa fa-volume-up fa'></i>
-											avant-gout
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player16" src="../../assets/Audio/ravi.mp3"></audio>
-										<button onclick="document.getElementById('player16').play()">
-											<i class='fa fa-volume-up fa'></i>
-											ravi
-										</button>
-									</td>
-									<td>
-										<audio id="player17" src="../../assets/Audio/dete.mp3"></audio>
-										<button onclick="document.getElementById('player17').play()">
-											<i class='fa fa-volume-up fa'></i>
-											d'été
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player18" src="../../assets/Audio/de.mp3"></audio>
-										<button onclick="document.getElementById('player18').play()">
-											<i class='fa fa-volume-up fa'></i>
-											de
-										</button>
-									</td>
-									<td>
-										<audio id="player19" src="../../assets/Audio/en.mp3"></audio>
-										<button onclick="document.getElementById('player19').play()">
-											<i class='fa fa-volume-up fa'></i>
-											en
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player20" src="../../assets/Audio/faire.mp3"></audio>
-										<button onclick="document.getElementById('player20').play()">
-											<i class='fa fa-volume-up fa'></i>
-											faire
-										</button>
-									</td>
-									<td>
-										<audio id="player21" src="../../assets/Audio/hiver.mp3"></audio>
-										<button onclick="document.getElementById('player21').play()">
-											<i class='fa fa-volume-up fa'></i>
-											hiver
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player22" src="../../assets/Audio/ta.mp3"></audio>
-										<button onclick="document.getElementById('player22').play()">
-											<i class='fa fa-volume-up fa'></i>
-											ta
-										</button>
-									</td>
-									<td>
-										<audio id="player23" src="../../assets/Audio/merci.mp3"></audio>
-										<button onclick="document.getElementById('player23').play()">
-											<i class='fa fa-volume-up fa'></i>
-											merci
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player24" src="../../assets/Audio/connaissance.mp3"></audio>
-										<button onclick="document.getElementById('player24').play()">
-											<i class='fa fa-volume-up fa'></i>
-											connaissance
-										</button>
-									</td>
-									<td>
-										<audio id="player25" src="../../assets/Audio/a la prochaine.mp3"></audio>
-										<button onclick="document.getElementById('player25').play()">
-											<i class='fa fa-volume-up fa'></i>
-											à la prochaine
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player26" src="../../assets/Audio/cest.mp3"></audio>
-										<button onclick="document.getElementById('player26').play()">
-											<i class='fa fa-volume-up fa'></i>
-											c'est
-										</button>
-									</td>
-									<td>
-										<audio id="player27" src="../../assets/Audio/voila.mp3"></audio>
-										<button onclick="document.getElementById('player27').play()">
-											<i class='fa fa-volume-up fa'></i>
-											voilà
-										</button>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</td>
-					<td style="vertical-align: middle;">
-						<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
-							allowfullscreen="allowfullscreen" allow="microphone"></iframe>
-					
-						<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
-							charset="UTF-8"></script>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<table class="table table-striped table-bordered table-hover">
+						<caption>Practice pronouncing words from the conversation.</caption>
+						<thead>
+							<tr>
+								<th scope="col" width="50%">Words</th>
+								<th scope="col" width="50%">Words</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<audio id="player6" src="../../assets/Audio/salut.mp3"></audio>
+									<button onclick="document.getElementById('player6').play()">
+										<i class='fa fa-volume-up fa'></i>
+										salut
+									</button>
+								</td>
+								<td>
+									<audio id="player7" src="../../assets/Audio/enchantee.mp3"></audio>
+									<button onclick="document.getElementById('player7').play()">
+										<i class='fa fa-volume-up fa'></i>
+										enchantée
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player8" src="../../assets/Audio/Je mappelle.mp3"></audio>
+									<button onclick="document.getElementById('player8').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Je m'appelle
+									</button>
+								</td>
+								<td>
+									<audio id="player9" src="../../assets/Audio/les.mp3"></audio>
+									<button onclick="document.getElementById('player9').play()">
+										<i class='fa fa-volume-up fa'></i>
+										les
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player10" src="../../assets/Audio/le frere.mp3"></audio>
+									<button onclick="document.getElementById('player10').play()">
+										<i class='fa fa-volume-up fa'></i>
+										le frère
+									</button>
+								</td>
+								<td>
+									<audio id="player11" src="../../assets/Audio/pommes.mp3"></audio>
+									<button onclick="document.getElementById('player11').play()">
+										<i class='fa fa-volume-up fa'></i>
+										pommes
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player12" src="../../assets/Audio/suis.mp3"></audio>
+									<button onclick="document.getElementById('player12').play()">
+										<i class='fa fa-volume-up fa'></i>
+										suis
+									</button>
+								</td>
+								<td>
+									<audio id="player13" src="../../assets/Audio/un.mp3"></audio>
+									<button onclick="document.getElementById('player13').play()">
+										<i class='fa fa-volume-up fa'></i>
+										un
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player14" src="../../assets/Audio/lamie.mp3"></audio>
+									<button onclick="document.getElementById('player14').play()">
+										<i class='fa fa-volume-up fa'></i>
+										l'amie
+									</button>
+								</td>
+								<td>
+									<audio id="player15" src="../../assets/Audio/avant-gout.mp3"></audio>
+									<button onclick="document.getElementById('player15').play()">
+										<i class='fa fa-volume-up fa'></i>
+										avant-gout
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player16" src="../../assets/Audio/ravi.mp3"></audio>
+									<button onclick="document.getElementById('player16').play()">
+										<i class='fa fa-volume-up fa'></i>
+										ravi
+									</button>
+								</td>
+								<td>
+									<audio id="player17" src="../../assets/Audio/dete.mp3"></audio>
+									<button onclick="document.getElementById('player17').play()">
+										<i class='fa fa-volume-up fa'></i>
+										d'été
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player18" src="../../assets/Audio/de.mp3"></audio>
+									<button onclick="document.getElementById('player18').play()">
+										<i class='fa fa-volume-up fa'></i>
+										de
+									</button>
+								</td>
+								<td>
+									<audio id="player19" src="../../assets/Audio/en.mp3"></audio>
+									<button onclick="document.getElementById('player19').play()">
+										<i class='fa fa-volume-up fa'></i>
+										en
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player20" src="../../assets/Audio/faire.mp3"></audio>
+									<button onclick="document.getElementById('player20').play()">
+										<i class='fa fa-volume-up fa'></i>
+										faire
+									</button>
+								</td>
+								<td>
+									<audio id="player21" src="../../assets/Audio/hiver.mp3"></audio>
+									<button onclick="document.getElementById('player21').play()">
+										<i class='fa fa-volume-up fa'></i>
+										hiver
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player22" src="../../assets/Audio/ta.mp3"></audio>
+									<button onclick="document.getElementById('player22').play()">
+										<i class='fa fa-volume-up fa'></i>
+										ta
+									</button>
+								</td>
+								<td>
+									<audio id="player23" src="../../assets/Audio/merci.mp3"></audio>
+									<button onclick="document.getElementById('player23').play()">
+										<i class='fa fa-volume-up fa'></i>
+										merci
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player24" src="../../assets/Audio/connaissance.mp3"></audio>
+									<button onclick="document.getElementById('player24').play()">
+										<i class='fa fa-volume-up fa'></i>
+										connaissance
+									</button>
+								</td>
+								<td>
+									<audio id="player25" src="../../assets/Audio/a la prochaine.mp3"></audio>
+									<button onclick="document.getElementById('player25').play()">
+										<i class='fa fa-volume-up fa'></i>
+										à la prochaine
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player26" src="../../assets/Audio/cest.mp3"></audio>
+									<button onclick="document.getElementById('player26').play()">
+										<i class='fa fa-volume-up fa'></i>
+										c'est
+									</button>
+								</td>
+								<td>
+									<audio id="player27" src="../../assets/Audio/voila.mp3"></audio>
+									<button onclick="document.getElementById('player27').play()">
+										<i class='fa fa-volume-up fa'></i>
+										voilà
+									</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-6 col-sm-3" style="vertical-align: middle;">
+					<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
+						allowfullscreen="allowfullscreen" allow="microphone"></iframe>
+		
+					<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
+						charset="UTF-8"></script>
+				</div>
+			</div>
+		</div>
+
 		
 		<hr>
 
@@ -321,46 +330,53 @@
 			<b>Read the dialogue. Click on the dialogue to hear parts of the conversation.</b>
 		</p>
 
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<audio id="player1" src="../../assets/Audio/m1-t2-dialogue1.wav"></audio>
-						<a onclick="document.getElementById('player1').play()">
-							<img src="../../assets/img/m1-t2-dialogue1.png" width="90%" style="cursor: pointer;">
-						</a>
-					</td>
-					<td>
-						<audio id="player2" src="../../assets/Audio/m1-t2-dialogue2.wav"></audio>
-						<a onclick="document.getElementById('player2').play()">
-							<img src="../../assets/img/m1-t2-dialogue2.png" width="92%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<audio id="player3" src="../../assets/Audio/m1-t2-dialogue3.wav"></audio>
-						<a onclick="document.getElementById('player3').play()">
-							<img src="../../assets/img/m1-t2-dialogue3.png" width="92%" style="cursor: pointer;">
-						</a>
-					</td>
-					<td>
-						<audio id="player4" src="../../assets/Audio/m1-t2-dialogue4.wav"></audio>
-						<a onclick="document.getElementById('player4').play()">
-							<img src="../../assets/img/m1-t2-dialogue4.png" width="90%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<audio id="player5" src="../../assets/Audio/m1-t2-dialogue5.wav"></audio>
-						<a onclick="document.getElementById('player5').play()">
-							<img src="../../assets/img/m1-t2-dialogue5.png" width="92%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<audio id="player1" src="../../assets/Audio/m1-t2-dialogue1.wav"></audio>
+					<a onclick="document.getElementById('player1').play()">
+						<img src="../../assets/img/m1-t2-dialogue1.png" width="90%" style="cursor: pointer;"
+							alt="Jude says 'Salut, c'est Lea'.">
+					</a>
+				</div>
+				<div class="col">
+					<audio id="player2" src="../../assets/Audio/m1-t2-dialogue2.wav"></audio>
+					<a onclick="document.getElementById('player2').play()">
+						<img src="../../assets/img/m1-t2-dialogue2.png" width="92%" style="cursor: pointer;"
+							alt="Marc says 'Bonjour, je m'appelle Marc. Je suis le frere de Jude. Lea replies 'Bonjour Marc. Je suis l'amie de Jude.'">
+					</a>
+				</div>
+			</div>
+			<div class="row align-items-start">
+				<div class="col">
+					<audio id="player3" src="../../assets/Audio/m1-t2-dialogue3.wav"></audio>
+					<a onclick="document.getElementById('player3').play()">
+						<img src="../../assets/img/m1-t2-dialogue3.png" width="92%" style="cursor: pointer;"
+							alt="Marc says 'Ravi de faire ta connaissance'. Lea replies 'Enchantee'">
+					</a>
+				</div>
+				<div class="col">
+					<audio id="player4" src="../../assets/Audio/m1-t2-dialogue4.wav"></audio>
+					<a onclick="document.getElementById('player4').play()">
+						<img src="../../assets/img/m1-t2-dialogue4.png" width="90%" style="cursor: pointer;"
+							alt="Jude says 'Voila les pommes. Un avant-gout d'ete en hiver. Lea replies 'Merci Jude'.">
+					</a>
+				</div>
+			</div>
+			<div class="row align-items-start">
+				<div class="col">
+					<audio id="player5" src="../../assets/Audio/m1-t2-dialogue5.wav"></audio>
+					<a onclick="document.getElementById('player5').play()">
+						<img src="../../assets/img/m1-t2-dialogue5.png" width="92%" style="cursor: pointer;"
+							alt="Jude and Lea both say 'A la prochaine.' and Marc says 'Au revoir.'">
+					</a>
+				</div>
+				<div class="col"></div>
+			</div>
+		</div>
+
+		<br>
+		<br>
 
 		<p>
 			<b>Practice pronouncing words from the conversation.</b>
@@ -369,43 +385,44 @@
 		<p>
 			<b>Audio recorder: Record and then listen to your speaking for the words below.</b>
 		</p>
-		
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr style="text-align: center;">
-					<td>
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Salut.
-						</p>
-					</td>
-					<td>
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Bonjour, je m’appelle Marc.
-						</p>
-					</td>
-					<td>
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Ravi de faire ta connaissance.
-						</p>
-					</td>
-					<td>
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Enchantée.
-						</p>
-					</td>
-					<td>
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							À la prochaine.
-						</p>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Salut.
+					</p>
+				</div>
+				<div class="col">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Bonjour, je m’appelle Marc.
+					</p>
+				</div>
+				<div class="col">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Ravi de faire ta connaissance.
+					</p>
+				</div>
+				<div class="col">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Enchantée.
+					</p>
+				</div>
+				<div class="col">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						À la prochaine.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<br>
 		
 		<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
 			allowfullscreen="allowfullscreen" allow="microphone"></iframe>
