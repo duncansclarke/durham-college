@@ -42,115 +42,119 @@
 		<p>
 			<b>Enregistrez et ensuite écoutez votre expression orale pour les mots ci-dessous. Comparez votre prononciation.</b>
 		</p>
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<table class="table table-striped table-bordered table-hover">
-							<tbody>
-								<tr>
-									<td>
-										<audio id="player1" src="../../assets/Audio/une assiette.mp3"></audio>
-										<button onclick="document.getElementById('player1').play()">
-											<i class='fa fa-volume-up fa'></i>
-											une assiette
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player2" src="../../assets/Audio/un choix.mp3"></audio>
-										<button onclick="document.getElementById('player2').play()">
-											<i class='fa fa-volume-up fa'></i>
-											un choix
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player3" src="../../assets/Audio/une clef.mp3"></audio>
-										<button onclick="document.getElementById('player3').play()">
-											<i class='fa fa-volume-up fa'></i>
-											une clef
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player4" src="../../assets/Audio/un agneau.mp3"></audio>
-										<button onclick="document.getElementById('player4').play()">
-											<i class='fa fa-volume-up fa'></i>
-											un agneau
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player5" src="../../assets/Audio/du fromage.mp3"></audio>
-										<button onclick="document.getElementById('player5').play()">
-											<i class='fa fa-volume-up fa'></i>
-											du fromage
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player6" src="../../assets/Audio/un canard.mp3"></audio>
-										<button onclick="document.getElementById('player6').play()">
-											<i class='fa fa-volume-up fa'></i>
-											un canard
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player7" src="../../assets/Audio/un hotel.mp3"></audio>
-										<button onclick="document.getElementById('player7').play()">
-											<i class='fa fa-volume-up fa'></i>
-											un hôtel
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player8" src="../../assets/Audio/une cuisse.mp3"></audio>
-										<button onclick="document.getElementById('player8').play()">
-											<i class='fa fa-volume-up fa'></i>
-											une cuisse
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player9" src="../../assets/Audio/un dessert.mp3"></audio>
-										<button onclick="document.getElementById('player9').play()">
-											<i class='fa fa-volume-up fa'></i>
-											un dessert
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player10" src="../../assets/Audio/petillant.mp3"></audio>
-										<button onclick="document.getElementById('player10').play()">
-											<i class='fa fa-volume-up fa'></i>
-											pétillant
-										</button>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</td>
-					<td>
-						<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
-							allowfullscreen="allowfullscreen" allow="microphone"></iframe>
-						
-						<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
-							charset="UTF-8"></script>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<table class="table table-striped table-bordered table-hover">
+						<caption>Pratiquez la prononciation</caption>
+						<thead>
+							<tr>
+								<th scope="col" width="100%">Les Mots</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<audio id="player1" src="../../assets/Audio/une assiette.mp3"></audio>
+									<button onclick="document.getElementById('player1').play()">
+										<i class='fa fa-volume-up fa'></i>
+										une assiette
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player2" src="../../assets/Audio/un choix.mp3"></audio>
+									<button onclick="document.getElementById('player2').play()">
+										<i class='fa fa-volume-up fa'></i>
+										un choix
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player3" src="../../assets/Audio/une clef.mp3"></audio>
+									<button onclick="document.getElementById('player3').play()">
+										<i class='fa fa-volume-up fa'></i>
+										une clef
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player4" src="../../assets/Audio/un agneau.mp3"></audio>
+									<button onclick="document.getElementById('player4').play()">
+										<i class='fa fa-volume-up fa'></i>
+										un agneau
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player5" src="../../assets/Audio/du fromage.mp3"></audio>
+									<button onclick="document.getElementById('player5').play()">
+										<i class='fa fa-volume-up fa'></i>
+										du fromage
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player6" src="../../assets/Audio/un canard.mp3"></audio>
+									<button onclick="document.getElementById('player6').play()">
+										<i class='fa fa-volume-up fa'></i>
+										un canard
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player7" src="../../assets/Audio/un hotel.mp3"></audio>
+									<button onclick="document.getElementById('player7').play()">
+										<i class='fa fa-volume-up fa'></i>
+										un hôtel
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player8" src="../../assets/Audio/une cuisse.mp3"></audio>
+									<button onclick="document.getElementById('player8').play()">
+										<i class='fa fa-volume-up fa'></i>
+										une cuisse
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player9" src="../../assets/Audio/un dessert.mp3"></audio>
+									<button onclick="document.getElementById('player9').play()">
+										<i class='fa fa-volume-up fa'></i>
+										un dessert
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player10" src="../../assets/Audio/petillant.mp3"></audio>
+									<button onclick="document.getElementById('player10').play()">
+										<i class='fa fa-volume-up fa'></i>
+										pétillant
+									</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-6 col-sm-3" style="vertical-align: middle;">
+					<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
+						allowfullscreen="allowfullscreen" allow="microphone"></iframe>
+		
+					<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
+						charset="UTF-8"></script>
+				</div>
+			</div>
+		</div>
 
 		<hr>
 		
@@ -188,43 +192,40 @@
 			<b>Enregistrez et écoutez votre expression orale. Comparez votre prononciation.</b>
 		</p>
 		
-		
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td class="text-center" width="33%">
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Qu’est-ce que vous prenez comme entrée?
-						</p>
-						<audio id="player11" src="../../assets/Audio/quest-ce-que-vous-prenez.wav"></audio>
-						<button onclick="document.getElementById('player11').play()">
-							<i class='fa fa-volume-up fa'></i>
-						</button>
-					</td>
-					<td class="text-center">
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Avez-vous choisi?
-						</p>
-						<audio id="player12" src="../../assets/Audio/avez-vous-choisi.wav"></audio>
-						<button onclick="document.getElementById('player12').play()">
-							<i class='fa fa-volume-up fa'></i>
-						</button>
-					</td>
-					<td class="text-center">
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Et pour le dessert?
-						</p>
-						<audio id="player13" src="../../assets/Audio/et-pour-le-dessert.wav"></audio>
-						<button onclick="document.getElementById('player13').play()">
-							<i class='fa fa-volume-up fa'></i>
-						</button>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col" style="text-align: center;">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Qu’est-ce que vous prenez comme entrée?
+					</p>
+					<audio id="player11" src="../../assets/Audio/quest-ce-que-vous-prenez.wav"></audio>
+					<button onclick="document.getElementById('player11').play()">
+						<i class='fa fa-volume-up fa'></i>
+					</button>
+				</div>
+				<div class="col" style="text-align: center;">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Avez-vous choisi?
+					</p>
+					<audio id="player12" src="../../assets/Audio/avez-vous-choisi.wav"></audio>
+					<button onclick="document.getElementById('player12').play()">
+						<i class='fa fa-volume-up fa'></i>
+					</button>
+				</div>
+				<div class="col" style="text-align: center;">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Et pour le dessert?
+					</p>
+					<audio id="player13" src="../../assets/Audio/et-pour-le-dessert.wav"></audio>
+					<button onclick="document.getElementById('player13').play()">
+						<i class='fa fa-volume-up fa'></i>
+					</button>
+				</div>
+			</div>
+		</div>
 
 		<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
 			allowfullscreen="allowfullscreen" allow="microphone"></iframe>
@@ -244,42 +245,41 @@
 			</b>
 		</p>
 
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td class="text-center" width="33%">
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Vous parlez français! C’est super.
-						</p>
-						<audio id="player14" src="../../assets/Audio/vous-parlez-francais-cest-super.wav"></audio>
-						<button onclick="document.getElementById('player14').play()">
-							<i class='fa fa-volume-up fa'></i>
-						</button>
-					</td>
-					<td class="text-center">
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Qu’est-ce que vous prenez comme entrée?
-						</p>
-						<audio id="player15" src="../../assets/Audio/quest-ce-que-vous-prenez.wav"></audio>
-						<button onclick="document.getElementById('player15').play()">
-							<i class='fa fa-volume-up fa'></i>
-						</button>
-					</td>
-					<td class="text-center" width="33%">
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Excellent choix.
-						</p>
-						<audio id="player16" src="../../assets/Audio/excellent-choix.wav"></audio>
-						<button onclick="document.getElementById('player16').play()">
-							<i class='fa fa-volume-up fa'></i>
-						</button>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col" style="text-align: center;">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Vous parlez français! C’est super.
+					</p>
+					<audio id="player14" src="../../assets/Audio/vous-parlez-francais-cest-super.wav"></audio>
+					<button onclick="document.getElementById('player14').play()">
+						<i class='fa fa-volume-up fa'></i>
+					</button>
+				</div>
+				<div class="col" style="text-align: center;">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Qu’est-ce que vous prenez comme entrée?
+					</p>
+					<audio id="player15" src="../../assets/Audio/quest-ce-que-vous-prenez.wav"></audio>
+					<button onclick="document.getElementById('player15').play()">
+						<i class='fa fa-volume-up fa'></i>
+					</button>
+				</div>
+				<div class="col" style="text-align: center;">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Excellent choix.
+					</p>
+					<audio id="player16" src="../../assets/Audio/excellent-choix.wav"></audio>
+					<button onclick="document.getElementById('player16').play()">
+						<i class='fa fa-volume-up fa'></i>
+					</button>
+				</div>
+			</div>
+		</div>
+
 
 		<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
 			allowfullscreen="allowfullscreen" allow="microphone"></iframe>
@@ -293,52 +293,59 @@
 			<b>Lisez le dialogue. Cliquez sur le dialogue pour entendre des parties de la conversation.</b>
 		</p>		
 
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<audio id="player17" src="../../assets/Audio/quest-ce-que-vous-prenez.wav"></audio>
-						<a onclick="document.getElementById('player17').play()">
-							<img src="../../assets/img/f2-m2-t3-dialogue1.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-					<td>
-						<audio id="player18" src="../../assets/Audio/F2M2T3-10.mp3"></audio>
-						<a onclick="document.getElementById('player18').play()">
-							<img src="../../assets/img/f2-m2-t3-dialogue2.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<audio id="player19" src="../../assets/Audio/F2M2T3-17.mp3"></audio>
-						<a onclick="document.getElementById('player19').play()">
-							<img src="../../assets/img/f2-m2-t3-dialogue3.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-					<td>
-						<audio id="player20" src="../../assets/Audio/F2M2T3-18.mp3"></audio>
-						<a onclick="document.getElementById('player20').play()">
-							<img src="../../assets/img/f2-m2-t3-dialogue4.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<audio id="player21" src="../../assets/Audio/F2M2T3-12.mp3"></audio>
-						<a onclick="document.getElementById('player21').play()">
-							<img src="../../assets/img/f2-m2-t3-dialogue5.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-					<td>
-						<audio id="player22" src="../../assets/Audio/F2M2T3-13.mp3"></audio>
-						<a onclick="document.getElementById('player22').play()">
-							<img src="../../assets/img/f2-m2-t3-dialogue6.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<audio id="player17" src="../../assets/Audio/quest-ce-que-vous-prenez.wav"></audio>
+					<a onclick="document.getElementById('player17').play()">
+						<img src="../../assets/img/f2-m2-t3-dialogue1.png" width="100%" style="cursor: pointer;"
+						alt="The waiter asks Pauline and Julie 'Qu'est-ce que vous prenez comme entree?'">
+					</a>
+				</div>
+				<div class="col">
+					<audio id="player18" src="../../assets/Audio/F2M2T3-10.mp3"></audio>
+					<a onclick="document.getElementById('player18').play()">
+						<img src="../../assets/img/f2-m2-t3-dialogue2.png" width="100%" style="cursor: pointer;"
+						alt="Julie says 'Je voudrais prendre une assiette de fromage, avec cinq types de fromages.'">
+					</a>
+				</div>
+			</div>
+			<div class="row align-items-start">
+				<div class="col">
+					<audio id="player19" src="../../assets/Audio/F2M2T3-17.mp3"></audio>
+					<a onclick="document.getElementById('player19').play()">
+						<img src="../../assets/img/f2-m2-t3-dialogue3.png" width="100%" style="cursor: pointer;"
+						alt="The waiter asks 'Qu'est-ce que je vous apporte a boire?'">
+					</a>
+				</div>
+				<div class="col">
+					<audio id="player20" src="../../assets/Audio/F2M2T3-18.mp3"></audio>
+					<a onclick="document.getElementById('player20').play()">
+						<img src="../../assets/img/f2-m2-t3-dialogue4.png" width="100%" style="cursor: pointer;"
+						alt="Pauline says 'On prendra du vin rose, une bouteille Cotes de Provence 2019'">
+					</a>
+				</div>
+			</div>
+			<div class="row align-items-start">
+				<div class="col">
+					<audio id="player21" src="../../assets/Audio/F2M2T3-12.mp3"></audio>
+					<a onclick="document.getElementById('player21').play()">
+						<img src="../../assets/img/f2-m2-t3-dialogue5.png" width="100%" style="cursor: pointer;"
+						alt="The waiter asks 'Parfait, comme plat principal, qu'avez-vous choisi?'">
+					</a>
+				</div>
+				<div class="col">
+					<audio id="player22" src="../../assets/Audio/F2M2T3-13.mp3"></audio>
+					<a onclick="document.getElementById('player22').play()">
+						<img src="../../assets/img/f2-m2-t3-dialogue6.png" width="100%" style="cursor: pointer;"
+						alt="Julie says 'J'ai choisi un carre d'agneau roti'">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<br>
 
 		<p>
 			Pratiquez la prononciation des mots de la conversation.
@@ -352,30 +359,29 @@
 			<b>Répondez aux supports du dialogue de la conversation.</b>
 		</p>
 
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td class="text-center" width="33%">
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Qu’est-ce que vous prenez comme entrée?
-						</p>
-					</td>
-					<td class="text-center">
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Et pour le dessert?
-						</p>
-					</td>
-					<td class="text-center" width="33%">
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Qu’est-ce que je vous apporte à boire?
-						</p>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Qu’est-ce que vous prenez comme entrée?
+					</p>
+				</div>
+				<div class="col">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Et pour le dessert?
+					</p>
+				</div>
+				<div class="col">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Qu’est-ce que je vous apporte à boire?
+					</p>
+				</div>
+			</div>
+		</div>
+
 
 		<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
 			allowfullscreen="allowfullscreen" allow="microphone"></iframe>

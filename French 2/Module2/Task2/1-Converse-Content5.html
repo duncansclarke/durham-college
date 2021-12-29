@@ -122,169 +122,161 @@
 		<audio id="player12" src="../../assets/Audio/le-forfait-etudiant.wav"></audio>
 		<audio id="player13" src="../../assets/Audio/un-billet-aller-retour.wav"></audio>
 		
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<p>
-							<i>Acheter un billet de train et répondre aux questions de l’employée.</i>
-						</p>
-						<p>
-							À la gare centrale de Montréal, Julie et Pauline vont acheter deux billets de train pour Toronto.
-						</p>
-						<p>
-							<b>Julie:</b>
-							Bonjour, 
-							<a id='id1' onclick="changeColor('id1', 'lightgreen')" style="cursor:pointer">
-								on voudrait
-							</a>
-							deux billets aller-retour Montréal-Toronto pour 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player1').play();"
-								tabindex='1' onfocus="document.getElementById('player1').play();" data-tooltip="tomorrow">
-								demain
-							</mark>
-							, samedi.
-						</p>
-						<p>
-							<b>L’employée:</b> Oui, bien sûr, 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player2').play();"
-								tabindex='2' onfocus="document.getElementById('player2').play();" 
-								data-tooltip="there is / there are (En français l’expression nécessite le verbe avoir, en anglais on utilise le  verbe être.)">
-								il y a
-							</mark>
-							un train à 
-							<a id='id2' onclick="changeColor('id2', '#5CFFFA')" style="cursor:pointer">13h</a>
-							, un autre à 
-							<a id='id3' onclick="changeColor('id3', '#5CFFFA')" style="cursor:pointer">15h</a>
-							et un 
-							<a id='id4' onclick="changeColor('id4', '#FF7BF6')" style="cursor:pointer">troisième</a>
-							à 
-							<a id='id5' onclick="changeColor('id5', '#5CFFFA')" style="cursor:pointer">18h</a>.
-						</p>
-						<p>
-							<b>Julie:</b> 
-							On prend le train de 
-							<a id='id6' onclick="changeColor('id6', '#5CFFFA')" style="cursor:pointer">13h</a>.
-							. Quels sont 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player3').play();"
-								tabindex='3' onfocus="document.getElementById('player3').play();"
-								data-tooltip="schedule">
-								les horaires
-							</mark>
-							pour 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player4').play();"
-								tabindex='4' onfocus="document.getElementById('player4').play();" data-tooltip="return">
-								le retour
-							</mark>
-							? 
-							<a id='id7' onclick="changeColor('id7', 'lightgreen')" style="cursor:pointer">On veut</a>
-							rester trois jours à Toronto.
-						</p>
-						<p>
-							<b>L’employée:</b> De Toronto, il y a un train qui quitte à 
-							<a id='id8' onclick="changeColor('id8', '#5CFFFA')" style="cursor:pointer">11h</a>
-							, un 
-							<a id='id9' onclick="changeColor('id9', '#FF7BF6')" style="cursor:pointer">deuxième</a>
-							à 
-							<a id='id10' onclick="changeColor('id10', '#5CFFFA')" style="cursor:pointer">13h</a>
-							 et un 
-							<a id='id11' onclick="changeColor('id11', '#FF7BF6')" style="cursor:pointer">troisième</a> 
-							à 
-							<a id='id12' onclick="changeColor('id12', '#5CFFFA')" style="cursor:pointer">19h</a>.
-						</p>
-						<p>
-							<b>Pauline:</b> 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player5').play();"
-								tabindex='5' onfocus="document.getElementById('player5').play();" data-tooltip="excuse me">
-								Excusez-moi
-							</mark>
-							, 
-							<a id='id13' onclick="changeColor('id13', 'lightgreen')" style="cursor:pointer">pourriez-vous</a>
-							nous redonner 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player6').play();"
-								tabindex='6' onfocus="document.getElementById('player6').play();" data-tooltip="the train schedule">
-								l’horaire des trains?
-							</mark>
-						</p>
-						<p>
-							<b>L'employée:</b> 
-							Oui, je comprends, 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player7').play();"
-								tabindex='7' onfocus="document.getElementById('player7').play();" data-tooltip="it's very busy at the train station today">
-								c'est très occupé à la gare aujourd’hui
-							</mark>
-							. Il y a un train qui quitte Toronto à 
-							<a id='id14' onclick="changeColor('id14', '#5CFFFA')" style="cursor:pointer">11h</a>
-							, un
-							autre à 
-							<a id='id15' onclick="changeColor('id15', '#5CFFFA')" style="cursor:pointer">13h</a> 
-							et le dernier à 
-							<a id='id16' onclick="changeColor('id16', '#5CFFFA')" style="cursor:pointer">19h</a>
-							.
-						</p>
-						<p>
-							<b>Pauline:</b> 
-							Merci beaucoup. On prend le train de 
-							<a id='id17' onclick="changeColor('id17', '#5CFFFA')" style="cursor:pointer">19h</a>
-							. 
-							<a id='id18' onclick="changeColor('id18', 'lightgreen')" style="cursor:pointer">On va pouvoir</a>
-							passer la journée
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player8').play();"
-								tabindex='8' onfocus="document.getElementById('player8').play();"
-								data-tooltip="downtown">
-								au centre-ville
-							</mark>
-							de Toronto.
-						</p>
-						<p>
-							<b>L’employée:</b> Quelle classe préférez-vous?
-						</p>
-						<p>
-							<i>
-								Pauline et Julie hésitent entre la classe économique et la classe affaires, elles consultent le site de VIA –Rail.
-								Elles décident enfin d’acheter un billet en classe économique.
-							</i>
-						</p>
-						<p>
-							<b>L’employée:</b> Parfait, deux billets en classe économique. Êtes-vous étudiantes? Il y a 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player9').play();"
-								tabindex='9' onfocus="document.getElementById('player9').play();" data-tooltip="discount">
-								un rabais
-							</mark>
-							pour les étudiants.
-						</p>
-						<p>
-							<b>Julie:</b> Oui, voici 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player10').play();"
-								tabindex='10' onfocus="document.getElementById('player10').play();" data-tooltip="my student card">
-								ma carte d’étudiante.
-							</mark>
-						</p>
-						<p>
-							<b>Pauline:</b> Moi aussi, je suis étudiante, mais 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player11').play();"
-								tabindex='11' onfocus="document.getElementById('player11').play();" data-tooltip="I work part-time">
-								je travaille à temps partiel
-							</mark>
-							dans un magasin de sport.
-						</p>
-						<p>
-							<b>L’employée:</b> C’est bon, avec 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player12').play();"
-								tabindex='12' onfocus="document.getElementById('player12').play();" data-tooltip="student rate">
-								le forfait étudiant
-							</mark>
-							, 
-							<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player13').play();"
-								tabindex='13' onfocus="document.getElementById('player13').play();" data-tooltip="round-trip ticket">
-								un billet aller-retour
-							</mark>
-							coûte 70 dollars.
-						</p>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<p>
+			<i>Acheter un billet de train et répondre aux questions de l’employée.</i>
+		</p>
+		<p>
+			À la gare centrale de Montréal, Julie et Pauline vont acheter deux billets de train pour Toronto.
+		</p>
+		<p>
+			<b>Julie:</b>
+			Bonjour,
+			<a id='id1' onclick="changeColor('id1', 'lightgreen')" style="cursor:pointer">
+				on voudrait
+			</a>
+			deux billets aller-retour Montréal-Toronto pour
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player1').play();"
+				tabindex='1' onfocus="document.getElementById('player1').play();" data-tooltip="tomorrow">
+				demain
+			</mark>
+			, samedi.
+		</p>
+		<p>
+			<b>L’employée:</b> Oui, bien sûr,
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player2').play();"
+				tabindex='2' onfocus="document.getElementById('player2').play();"
+				data-tooltip="there is / there are (En français l’expression nécessite le verbe avoir, en anglais on utilise le  verbe être.)">
+				il y a
+			</mark>
+			un train à
+			<a id='id2' onclick="changeColor('id2', '#5CFFFA')" style="cursor:pointer">13h</a>
+			, un autre à
+			<a id='id3' onclick="changeColor('id3', '#5CFFFA')" style="cursor:pointer">15h</a>
+			et un
+			<a id='id4' onclick="changeColor('id4', '#FF7BF6')" style="cursor:pointer">troisième</a>
+			à
+			<a id='id5' onclick="changeColor('id5', '#5CFFFA')" style="cursor:pointer">18h</a>.
+		</p>
+		<p>
+			<b>Julie:</b>
+			On prend le train de
+			<a id='id6' onclick="changeColor('id6', '#5CFFFA')" style="cursor:pointer">13h</a>.
+			. Quels sont
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player3').play();"
+				tabindex='3' onfocus="document.getElementById('player3').play();" data-tooltip="schedule">
+				les horaires
+			</mark>
+			pour
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player4').play();"
+				tabindex='4' onfocus="document.getElementById('player4').play();" data-tooltip="return">
+				le retour
+			</mark>
+			?
+			<a id='id7' onclick="changeColor('id7', 'lightgreen')" style="cursor:pointer">On veut</a>
+			rester trois jours à Toronto.
+		</p>
+		<p>
+			<b>L’employée:</b> De Toronto, il y a un train qui quitte à
+			<a id='id8' onclick="changeColor('id8', '#5CFFFA')" style="cursor:pointer">11h</a>
+			, un
+			<a id='id9' onclick="changeColor('id9', '#FF7BF6')" style="cursor:pointer">deuxième</a>
+			à
+			<a id='id10' onclick="changeColor('id10', '#5CFFFA')" style="cursor:pointer">13h</a>
+			et un
+			<a id='id11' onclick="changeColor('id11', '#FF7BF6')" style="cursor:pointer">troisième</a>
+			à
+			<a id='id12' onclick="changeColor('id12', '#5CFFFA')" style="cursor:pointer">19h</a>.
+		</p>
+		<p>
+			<b>Pauline:</b>
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player5').play();"
+				tabindex='5' onfocus="document.getElementById('player5').play();" data-tooltip="excuse me">
+				Excusez-moi
+			</mark>
+			,
+			<a id='id13' onclick="changeColor('id13', 'lightgreen')" style="cursor:pointer">pourriez-vous</a>
+			nous redonner
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player6').play();"
+				tabindex='6' onfocus="document.getElementById('player6').play();" data-tooltip="the train schedule">
+				l’horaire des trains?
+			</mark>
+		</p>
+		<p>
+			<b>L'employée:</b>
+			Oui, je comprends,
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player7').play();"
+				tabindex='7' onfocus="document.getElementById('player7').play();"
+				data-tooltip="it's very busy at the train station today">
+				c'est très occupé à la gare aujourd’hui
+			</mark>
+			. Il y a un train qui quitte Toronto à
+			<a id='id14' onclick="changeColor('id14', '#5CFFFA')" style="cursor:pointer">11h</a>
+			, un
+			autre à
+			<a id='id15' onclick="changeColor('id15', '#5CFFFA')" style="cursor:pointer">13h</a>
+			et le dernier à
+			<a id='id16' onclick="changeColor('id16', '#5CFFFA')" style="cursor:pointer">19h</a>
+			.
+		</p>
+		<p>
+			<b>Pauline:</b>
+			Merci beaucoup. On prend le train de
+			<a id='id17' onclick="changeColor('id17', '#5CFFFA')" style="cursor:pointer">19h</a>
+			.
+			<a id='id18' onclick="changeColor('id18', 'lightgreen')" style="cursor:pointer">On va pouvoir</a>
+			passer la journée
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player8').play();"
+				tabindex='8' onfocus="document.getElementById('player8').play();" data-tooltip="downtown">
+				au centre-ville
+			</mark>
+			de Toronto.
+		</p>
+		<p>
+			<b>L’employée:</b> Quelle classe préférez-vous?
+		</p>
+		<p>
+			<i>
+				Pauline et Julie hésitent entre la classe économique et la classe affaires, elles consultent le site de VIA
+				–Rail.
+				Elles décident enfin d’acheter un billet en classe économique.
+			</i>
+		</p>
+		<p>
+			<b>L’employée:</b> Parfait, deux billets en classe économique. Êtes-vous étudiantes? Il y a
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player9').play();"
+				tabindex='9' onfocus="document.getElementById('player9').play();" data-tooltip="discount">
+				un rabais
+			</mark>
+			pour les étudiants.
+		</p>
+		<p>
+			<b>Julie:</b> Oui, voici
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player10').play();"
+				tabindex='10' onfocus="document.getElementById('player10').play();" data-tooltip="my student card">
+				ma carte d’étudiante.
+			</mark>
+		</p>
+		<p>
+			<b>Pauline:</b> Moi aussi, je suis étudiante, mais
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player11').play();"
+				tabindex='11' onfocus="document.getElementById('player11').play();" data-tooltip="I work part-time">
+				je travaille à temps partiel
+			</mark>
+			dans un magasin de sport.
+		</p>
+		<p>
+			<b>L’employée:</b> C’est bon, avec
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player12').play();"
+				tabindex='12' onfocus="document.getElementById('player12').play();" data-tooltip="student rate">
+				le forfait étudiant
+			</mark>
+			,
+			<mark style="background-color: yellow; cursor: pointer;" onclick="document.getElementById('player13').play();"
+				tabindex='13' onfocus="document.getElementById('player13').play();" data-tooltip="round-trip ticket">
+				un billet aller-retour
+			</mark>
+			coûte 70 dollars.
+		</p>
 
 		<button onclick="addBorders()" style="height: 35px; font-size: 20px">
 			Show Solution

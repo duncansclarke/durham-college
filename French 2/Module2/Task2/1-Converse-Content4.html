@@ -43,151 +43,156 @@
 			<b>Écoutez la prononciation.</b>
 		</p>
 
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<table class="table table-striped table-bordered table-hover">
-							<tbody>
-								<tr>
-									<td>
-										<audio id="player1" src="../../assets/Audio/Je veux.mp3"></audio>
-										<button onclick="document.getElementById('player1').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Je veux
-										</button>
-									</td>
-									<td>
-										<p>
-											I want
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player2" src="../../assets/Audio/Tu veux.mp3"></audio>
-										<button onclick="document.getElementById('player2').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Tu veux
-										</button>
-									</td>
-									<td>
-										<p>
-											You want
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player3" src="../../assets/Audio/Il veut.mp3"></audio>
-										<button onclick="document.getElementById('player3').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Il veut
-										</button>
-									</td>
-									<td>
-										<p>
-											He wants
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player4" src="../../assets/Audio/Elle veut.mp3"></audio>
-										<button onclick="document.getElementById('player4').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Elle veut
-										</button>
-									</td>
-									<td>
-										<p>
-											She wants
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player5" src="../../assets/Audio/On veut.mp3"></audio>
-										<button onclick="document.getElementById('player5').play()">
-													<i class='fa fa-volume-up fa'></i>
-													On veut
-										</button>
-									</td>
-									<td>
-										<p>
-											We want
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player6" src="../../assets/Audio/Nous voulons.mp3"></audio>
-										<button onclick="document.getElementById('player6').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Nous voulons
-										</button>
-									</td>
-									<td>
-										<p>
-											We want
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player7" src="../../assets/Audio/Vous voulez.mp3"></audio>
-										<button onclick="document.getElementById('player7').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Vous voulez
-										</button>
-									</td>
-									<td>
-										<p>
-											You want (plural or singular formal)
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player8" src="../../assets/Audio/Ils veulent.mp3"></audio>
-										<button onclick="document.getElementById('player8').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Ils veulent
-										</button>
-									</td>
-									<td>
-										<p>
-											They want (masculine or at least one man and one woman)
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player9" src="../../assets/Audio/Elles veulent.mp3"></audio>
-										<button onclick="document.getElementById('player9').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Elles veulent
-										</button>
-									</td>
-									<td>
-										<p>
-											They want
-										</p>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</td>
-					<td>
-						<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
-							allowfullscreen="allowfullscreen" allow="microphone"></iframe>
-						
-						<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
-							charset="UTF-8"></script>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<table class="table table-striped table-bordered table-hover">
+						<caption>Pratiquez la prononciation</caption>
+						<thead>
+							<tr style="text-align: center;">
+								<th scope="col" width="50%">Français</th>
+								<th scope="col" width="50%">Anglais</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<audio id="player1" src="../../assets/Audio/Je veux.mp3"></audio>
+									<button onclick="document.getElementById('player1').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Je veux
+									</button>
+								</td>
+								<td>
+									<p>
+										I want
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player2" src="../../assets/Audio/Tu veux.mp3"></audio>
+									<button onclick="document.getElementById('player2').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Tu veux
+									</button>
+								</td>
+								<td>
+									<p>
+										You want
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player3" src="../../assets/Audio/Il veut.mp3"></audio>
+									<button onclick="document.getElementById('player3').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Il veut
+									</button>
+								</td>
+								<td>
+									<p>
+										He wants
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player4" src="../../assets/Audio/Elle veut.mp3"></audio>
+									<button onclick="document.getElementById('player4').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Elle veut
+									</button>
+								</td>
+								<td>
+									<p>
+										She wants
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player5" src="../../assets/Audio/On veut.mp3"></audio>
+									<button onclick="document.getElementById('player5').play()">
+										<i class='fa fa-volume-up fa'></i>
+										On veut
+									</button>
+								</td>
+								<td>
+									<p>
+										We want
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player6" src="../../assets/Audio/Nous voulons.mp3"></audio>
+									<button onclick="document.getElementById('player6').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Nous voulons
+									</button>
+								</td>
+								<td>
+									<p>
+										We want
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player7" src="../../assets/Audio/Vous voulez.mp3"></audio>
+									<button onclick="document.getElementById('player7').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Vous voulez
+									</button>
+								</td>
+								<td>
+									<p>
+										You want (plural or singular formal)
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player8" src="../../assets/Audio/Ils veulent.mp3"></audio>
+									<button onclick="document.getElementById('player8').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Ils veulent
+									</button>
+								</td>
+								<td>
+									<p>
+										They want (masculine or at least one man and one woman)
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player9" src="../../assets/Audio/Elles veulent.mp3"></audio>
+									<button onclick="document.getElementById('player9').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Elles veulent
+									</button>
+								</td>
+								<td>
+									<p>
+										They want
+									</p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-6 col-sm-3" style="vertical-align: middle;">
+					<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
+						allowfullscreen="allowfullscreen" allow="microphone"></iframe>
+		
+					<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
+						charset="UTF-8"></script>
+				</div>
+			</div>
+		</div>
 		
 		<hr>
 
@@ -215,107 +220,111 @@
 			<b>Enregistrez et écoutez ensuite votre expression orale. Comparez votre prononciation.</b>
 		</p>
 
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<table class="table table-striped table-bordered table-hover">
-							<tbody>
-								<tr>
-									<td>
-										<audio id="player10" src="../../assets/Audio/Je peux.mp3"></audio>
-										<button onclick="document.getElementById('player10').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Je peux
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player11" src="../../assets/Audio/Tu peux.mp3"></audio>
-										<button onclick="document.getElementById('player11').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Tu peux
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player12" src="../../assets/Audio/Il peut.mp3"></audio>
-										<button onclick="document.getElementById('player12').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Il peut
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player13" src="../../assets/Audio/Elle peut.mp3"></audio>
-										<button onclick="document.getElementById('player13').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Elle peut
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player14" src="../../assets/Audio/On peut.mp3"></audio>
-										<button onclick="document.getElementById('player14').play()">
-													<i class='fa fa-volume-up fa'></i>
-													On peut
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player15" src="../../assets/Audio/nous pouvons.mp3"></audio>
-										<button onclick="document.getElementById('player15').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Nous pouvons
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player16" src="../../assets/Audio/vous pouvez.mp3"></audio>
-										<button onclick="document.getElementById('player16').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Vous pouvez
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player17" src="../../assets/Audio/ils peuvent.mp3"></audio>
-										<button onclick="document.getElementById('player17').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Ils peuvent
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player18" src="../../assets/Audio/Elles peuvent.mp3"></audio>
-										<button onclick="document.getElementById('player18').play()">
-													<i class='fa fa-volume-up fa'></i>
-													Elles peuvent
-										</button>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</td>
-					<td>
-						<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514"
-							frameborder="0" allowfullscreen="allowfullscreen" allow="microphone"></iframe>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<table class="table table-striped table-bordered table-hover">
+						<caption>Pratiquez la prononciation</caption>
+						<thead>
+							<tr style="text-align: center;">
+								<th scope="col" width="100%">Le verbe pouvoir au présent de l’indicatif</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<audio id="player10" src="../../assets/Audio/Je peux.mp3"></audio>
+									<button onclick="document.getElementById('player10').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Je peux
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player11" src="../../assets/Audio/Tu peux.mp3"></audio>
+									<button onclick="document.getElementById('player11').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Tu peux
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player12" src="../../assets/Audio/Il peut.mp3"></audio>
+									<button onclick="document.getElementById('player12').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Il peut
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player13" src="../../assets/Audio/Elle peut.mp3"></audio>
+									<button onclick="document.getElementById('player13').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Elle peut
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player14" src="../../assets/Audio/On peut.mp3"></audio>
+									<button onclick="document.getElementById('player14').play()">
+										<i class='fa fa-volume-up fa'></i>
+										On peut
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player15" src="../../assets/Audio/nous pouvons.mp3"></audio>
+									<button onclick="document.getElementById('player15').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Nous pouvons
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player16" src="../../assets/Audio/vous pouvez.mp3"></audio>
+									<button onclick="document.getElementById('player16').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Vous pouvez
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player17" src="../../assets/Audio/ils peuvent.mp3"></audio>
+									<button onclick="document.getElementById('player17').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Ils peuvent
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player18" src="../../assets/Audio/Elles peuvent.mp3"></audio>
+									<button onclick="document.getElementById('player18').play()">
+										<i class='fa fa-volume-up fa'></i>
+										Elles peuvent
+									</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-6 col-sm-3" style="vertical-align: middle;">
+					<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
+						allowfullscreen="allowfullscreen" allow="microphone"></iframe>
 		
-						<script
-							src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
-							charset="UTF-8"></script>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+					<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
+						charset="UTF-8"></script>
+				</div>
+			</div>
+		</div>
+
 
 		<hr>
 
@@ -356,165 +365,170 @@
 			<b>Enregistrez et écoutez ensuite votre expression orale. Comparez votre prononciation.</b>
 		</p>
 
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<table class="table table-striped table-bordered table-hover">
-							<tbody>
-								<tr>
-									<td>
-										<audio id="player19" src="../../assets/Audio/premier.mp3"></audio>
-										<button onclick="document.getElementById('player19').play()">
-											<i class='fa fa-volume-up fa'></i>
-											premier (ère)
-										</button>
-									</td>
-									<td>
-										<p>
-											1<sup>er (ère)</sup>
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player20" src="../../assets/Audio/deuxieme.mp3"></audio>
-										<button onclick="document.getElementById('player20').play()">
-											<i class='fa fa-volume-up fa'></i>
-											deuxième
-										</button>
-									</td>
-									<td>
-										<p>
-											2<sup>e</sup>
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player21" src="../../assets/Audio/troisieme.mp3"></audio>
-										<button onclick="document.getElementById('player21').play()">
-											<i class='fa fa-volume-up fa'></i>
-											troisième
-										</button>
-									</td>
-									<td>
-										<p>
-											3<sup>e</sup>
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player22" src="../../assets/Audio/quatrieme.mp3"></audio>
-										<button onclick="document.getElementById('player22').play()">
-											<i class='fa fa-volume-up fa'></i>
-											quatrième
-										</button>
-									</td>
-									<td>
-										<p>
-											4<sup>e</sup>
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player23" src="../../assets/Audio/cinquieme.mp3"></audio>
-										<button onclick="document.getElementById('player23').play()">
-											<i class='fa fa-volume-up fa'></i>
-											cinquième
-										</button>
-									</td>
-									<td>
-										<p>
-											5<sup>e</sup>
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player24" src="../../assets/Audio/sixieme.mp3"></audio>
-										<button onclick="document.getElementById('player24').play()">
-											<i class='fa fa-volume-up fa'></i>
-											sixième
-										</button>
-									</td>
-									<td>
-										<p>
-											6<sup>e</sup>
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player25" src="../../assets/Audio/septieme.mp3"></audio>
-										<button onclick="document.getElementById('player25').play()">
-											<i class='fa fa-volume-up fa'></i>
-											septième
-										</button>
-									</td>
-									<td>
-										<p>
-											7<sup>e</sup>
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player26" src="../../assets/Audio/huitieme.mp3"></audio>
-										<button onclick="document.getElementById('player26').play()">
-											<i class='fa fa-volume-up fa'></i>
-											huitième
-										</button>
-									</td>
-									<td>
-										<p>
-											8<sup>e</sup>
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player27" src="../../assets/Audio/neuvieme.mp3"></audio>
-										<button onclick="document.getElementById('player27').play()">
-											<i class='fa fa-volume-up fa'></i>
-											neuvième
-										</button>
-									</td>
-									<td>
-										<p>
-											9<sup>e</sup>
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player28" src="../../assets/Audio/dixieme.mp3"></audio>
-										<button onclick="document.getElementById('player28').play()">
-											<i class='fa fa-volume-up fa'></i>
-											dixième
-										</button>
-									</td>
-									<td>
-										<p>
-											10<sup>e</sup>
-										</p>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</td>
-					<td>
-						<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
-							allowfullscreen="allowfullscreen" allow="microphone"></iframe>
-						
-						<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
-							charset="UTF-8"></script>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<table class="table table-striped table-bordered table-hover">
+						<caption>Pratiquez la prononciation</caption>
+						<thead>
+							<tr>
+								<th scope="col" width="50%">Numbers</th>
+								<th scope="col" width="50%">Digits</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<audio id="player19" src="../../assets/Audio/premier.mp3"></audio>
+									<button onclick="document.getElementById('player19').play()">
+										<i class='fa fa-volume-up fa'></i>
+										premier (ère)
+									</button>
+								</td>
+								<td>
+									<p>
+										1<sup>er (ère)</sup>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player20" src="../../assets/Audio/deuxieme.mp3"></audio>
+									<button onclick="document.getElementById('player20').play()">
+										<i class='fa fa-volume-up fa'></i>
+										deuxième
+									</button>
+								</td>
+								<td>
+									<p>
+										2<sup>e</sup>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player21" src="../../assets/Audio/troisieme.mp3"></audio>
+									<button onclick="document.getElementById('player21').play()">
+										<i class='fa fa-volume-up fa'></i>
+										troisième
+									</button>
+								</td>
+								<td>
+									<p>
+										3<sup>e</sup>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player22" src="../../assets/Audio/quatrieme.mp3"></audio>
+									<button onclick="document.getElementById('player22').play()">
+										<i class='fa fa-volume-up fa'></i>
+										quatrième
+									</button>
+								</td>
+								<td>
+									<p>
+										4<sup>e</sup>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player23" src="../../assets/Audio/cinquieme.mp3"></audio>
+									<button onclick="document.getElementById('player23').play()">
+										<i class='fa fa-volume-up fa'></i>
+										cinquième
+									</button>
+								</td>
+								<td>
+									<p>
+										5<sup>e</sup>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player24" src="../../assets/Audio/sixieme.mp3"></audio>
+									<button onclick="document.getElementById('player24').play()">
+										<i class='fa fa-volume-up fa'></i>
+										sixième
+									</button>
+								</td>
+								<td>
+									<p>
+										6<sup>e</sup>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player25" src="../../assets/Audio/septieme.mp3"></audio>
+									<button onclick="document.getElementById('player25').play()">
+										<i class='fa fa-volume-up fa'></i>
+										septième
+									</button>
+								</td>
+								<td>
+									<p>
+										7<sup>e</sup>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player26" src="../../assets/Audio/huitieme.mp3"></audio>
+									<button onclick="document.getElementById('player26').play()">
+										<i class='fa fa-volume-up fa'></i>
+										huitième
+									</button>
+								</td>
+								<td>
+									<p>
+										8<sup>e</sup>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player27" src="../../assets/Audio/neuvieme.mp3"></audio>
+									<button onclick="document.getElementById('player27').play()">
+										<i class='fa fa-volume-up fa'></i>
+										neuvième
+									</button>
+								</td>
+								<td>
+									<p>
+										9<sup>e</sup>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player28" src="../../assets/Audio/dixieme.mp3"></audio>
+									<button onclick="document.getElementById('player28').play()">
+										<i class='fa fa-volume-up fa'></i>
+										dixième
+									</button>
+								</td>
+								<td>
+									<p>
+										10<sup>e</sup>
+									</p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-6 col-sm-3" style="vertical-align: middle;">
+					<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
+						allowfullscreen="allowfullscreen" allow="microphone"></iframe>
+		
+					<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
+						charset="UTF-8"></script>
+				</div>
+			</div>
+		</div>
 
 
 		<hr>

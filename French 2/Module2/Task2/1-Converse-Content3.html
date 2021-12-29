@@ -42,155 +42,160 @@
 		<p>
 			<b>Enregistrez et ensuite écoutez votre expression orale pour les mots ci-dessous. Comparez votre prononciation.</b>
 		</p>
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<table class="table table-striped table-bordered table-hover">
-							<tbody>
-								<tr>
-									<td>
-										<audio id="player1" src="../../assets/Audio/forfait.mp3"></audio>
-										<button onfocus="document.getElementById('player1').play()">
-											<p>
-												<a onclick="document.getElementById('player1').play()">
-													<i class='fa fa-volume-up fa'></i>
-													forfait
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player2" src="../../assets/Audio/aller-retour.mp3"></audio>
-										<button onfocus="document.getElementById('player2').play()">
-											<p>
-												<a onclick="document.getElementById('player2').play()">
-													<i class='fa fa-volume-up fa'></i>
-													aller-retour
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player3" src="../../assets/Audio/depart.mp3"></audio>
-										<button onfocus="document.getElementById('player3').play()">
-											<p>
-												<a onclick="document.getElementById('player3').play()">
-													<i class='fa fa-volume-up fa'></i>
-													départ
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player4" src="../../assets/Audio/carte detudiant.mp3"></audio>
-										<button onfocus="document.getElementById('player4').play()">
-											<p>
-												<a onclick="document.getElementById('player4').play()">
-													<i class='fa fa-volume-up fa'></i>
-													carte d’étudiant
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player5" src="../../assets/Audio/magasin.mp3"></audio>
-										<button onfocus="document.getElementById('player5').play()">
-											<p>
-												<a onclick="document.getElementById('player5').play()">
-													<i class='fa fa-volume-up fa'></i>
-													magasin
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player6" src="../../assets/Audio/sport.mp3"></audio>
-										<button onfocus="document.getElementById('player6').play()">
-											<p>
-												<a onclick="document.getElementById('player6').play()">
-													<i class='fa fa-volume-up fa'></i>
-													sport
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player7" src="../../assets/Audio/a temps partiel.mp3"></audio>
-										<button onfocus="document.getElementById('player7').play()">
-											<p>
-												<a onclick="document.getElementById('player7').play()">
-													<i class='fa fa-volume-up fa'></i>
-													à temps partiel
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player8" src="../../assets/Audio/Excusez-moi.mp3"></audio>
-										<button onfocus="document.getElementById('player8').play()">
-											<p>
-												<a onclick="document.getElementById('player8').play()">
-													<i class='fa fa-volume-up fa'></i>
-													excusez-moi
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player9" src="../../assets/Audio/deuxieme.mp3"></audio>
-										<button onfocus="document.getElementById('player9').play()">
-											<p>
-												<a onclick="document.getElementById('player9').play()">
-													<i class='fa fa-volume-up fa'></i>
-													deuxième
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player10" src="../../assets/Audio/un rabais.mp3"></audio>
-										<button onfocus="document.getElementById('player10').play()">
-											<p>
-												<a onclick="document.getElementById('player10').play()">
-													<i class='fa fa-volume-up fa'></i>
-													un rabais
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</td>
-					<td>
-						<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
-							allowfullscreen="allowfullscreen" allow="microphone"></iframe>
-						
-						<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
-							charset="UTF-8"></script>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<table class="table table-striped table-bordered table-hover">
+						<caption>Pratiquez la prononciation</caption>
+						<thead>
+							<tr>
+								<th scope="col" width="100%">Les Mots</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<audio id="player1" src="../../assets/Audio/forfait.mp3"></audio>
+									<button onfocus="document.getElementById('player1').play()">
+										<p>
+											<a onclick="document.getElementById('player1').play()">
+												<i class='fa fa-volume-up fa'></i>
+												forfait
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player2" src="../../assets/Audio/aller-retour.mp3"></audio>
+									<button onfocus="document.getElementById('player2').play()">
+										<p>
+											<a onclick="document.getElementById('player2').play()">
+												<i class='fa fa-volume-up fa'></i>
+												aller-retour
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player3" src="../../assets/Audio/depart.mp3"></audio>
+									<button onfocus="document.getElementById('player3').play()">
+										<p>
+											<a onclick="document.getElementById('player3').play()">
+												<i class='fa fa-volume-up fa'></i>
+												départ
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player4" src="../../assets/Audio/carte detudiant.mp3"></audio>
+									<button onfocus="document.getElementById('player4').play()">
+										<p>
+											<a onclick="document.getElementById('player4').play()">
+												<i class='fa fa-volume-up fa'></i>
+												carte d’étudiant
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player5" src="../../assets/Audio/magasin.mp3"></audio>
+									<button onfocus="document.getElementById('player5').play()">
+										<p>
+											<a onclick="document.getElementById('player5').play()">
+												<i class='fa fa-volume-up fa'></i>
+												magasin
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player6" src="../../assets/Audio/sport.mp3"></audio>
+									<button onfocus="document.getElementById('player6').play()">
+										<p>
+											<a onclick="document.getElementById('player6').play()">
+												<i class='fa fa-volume-up fa'></i>
+												sport
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player7" src="../../assets/Audio/a temps partiel.mp3"></audio>
+									<button onfocus="document.getElementById('player7').play()">
+										<p>
+											<a onclick="document.getElementById('player7').play()">
+												<i class='fa fa-volume-up fa'></i>
+												à temps partiel
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player8" src="../../assets/Audio/Excusez-moi.mp3"></audio>
+									<button onfocus="document.getElementById('player8').play()">
+										<p>
+											<a onclick="document.getElementById('player8').play()">
+												<i class='fa fa-volume-up fa'></i>
+												excusez-moi
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player9" src="../../assets/Audio/deuxieme.mp3"></audio>
+									<button onfocus="document.getElementById('player9').play()">
+										<p>
+											<a onclick="document.getElementById('player9').play()">
+												<i class='fa fa-volume-up fa'></i>
+												deuxième
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player10" src="../../assets/Audio/un rabais.mp3"></audio>
+									<button onfocus="document.getElementById('player10').play()">
+										<p>
+											<a onclick="document.getElementById('player10').play()">
+												<i class='fa fa-volume-up fa'></i>
+												un rabais
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-6 col-sm-3" style="vertical-align: middle;">
+					<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
+						allowfullscreen="allowfullscreen" allow="microphone"></iframe>
+		
+					<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
+						charset="UTF-8"></script>
+				</div>
+			</div>
+		</div>
 
 		
 
@@ -232,52 +237,58 @@
 			<b>Lisez le dialogue. Cliquez sur le dialogue pour entendre des parties de la conversation.</b>
 		</p>
 
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<audio id="player11" src="../../assets/Audio/F2M2T2-2.mp3"></audio>
-						<a onclick="document.getElementById('player11').play()">
-							<img src="../../assets/img/f2-m2-t2-dialogue1.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-					<td>
-						<audio id="player12" src="../../assets/Audio/F2M2T2-3.mp3"></audio>
-						<a onclick="document.getElementById('player12').play()">
-							<img src="../../assets/img/f2-m2-t2-dialogue2.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<audio id="player13" src="../../assets/Audio/F2M2T2-6.mp3"></audio>
-						<a onclick="document.getElementById('player13').play()">
-							<img src="../../assets/img/f2-m2-t2-dialogue3.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-					<td>
-						<audio id="player14" src="../../assets/Audio/F2M2T2-7.wav"></audio>
-						<a onclick="document.getElementById('player14').play()">
-							<img src="../../assets/img/f2-m2-t2-dialogue4.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<audio id="player15" src="../../assets/Audio/F2M2T2-11.wav"></audio>
-						<a onclick="document.getElementById('player15').play()">
-							<img src="../../assets/img/f2-m2-t2-dialogue5.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-					<td>
-						<audio id="player16" src="../../assets/Audio/F2M2T2-12.mp3"></audio>
-						<a onclick="document.getElementById('player16').play()">
-							<img src="../../assets/img/f2-m2-t2-dialogue6.png" width="100%" style="cursor: pointer;">
-						</a>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<audio id="player11" src="../../assets/Audio/F2M2T2-2.mp3"></audio>
+					<a onclick="document.getElementById('player11').play()">
+						<img src="../../assets/img/f2-m2-t2-dialogue1.png" width="100%" style="cursor: pointer;"
+						alt="Julie speaks to the employee at the train station.">
+					</a>
+				</div>
+				<div class="col">
+					<audio id="player12" src="../../assets/Audio/F2M2T2-3.mp3"></audio>
+					<a onclick="document.getElementById('player12').play()">
+						<img src="../../assets/img/f2-m2-t2-dialogue2.png" width="100%" style="cursor: pointer;"
+						alt="The employee at the train station replies to Julie">
+					</a>
+				</div>
+			</div>
+			<div class="row align-items-start">
+				<div class="col">
+					<audio id="player13" src="../../assets/Audio/F2M2T2-6.mp3"></audio>
+					<a onclick="document.getElementById('player13').play()">
+						<img src="../../assets/img/f2-m2-t2-dialogue3.png" width="100%" style="cursor: pointer;"
+						alt="Pauline asks the employee for the train schedule.">
+					</a>
+				</div>
+				<div class="col">
+					<audio id="player14" src="../../assets/Audio/F2M2T2-7.wav"></audio>
+					<a onclick="document.getElementById('player14').play()">
+						<img src="../../assets/img/f2-m2-t2-dialogue4.png" width="100%" style="cursor: pointer;"
+						alt="The employee provides the train schedule to Pauline">
+					</a>
+				</div>
+			</div>
+			<div class="row align-items-start">
+				<div class="col">
+					<audio id="player15" src="../../assets/Audio/F2M2T2-11.wav"></audio>
+					<a onclick="document.getElementById('player15').play()">
+						<img src="../../assets/img/f2-m2-t2-dialogue5.png" width="100%" style="cursor: pointer;"
+						alt="The employee asks Julie and Pauline if they are students.">
+					</a>
+				</div>
+				<div class="col">
+					<audio id="player16" src="../../assets/Audio/F2M2T2-12.mp3"></audio>
+					<a onclick="document.getElementById('player16').play()">
+						<img src="../../assets/img/f2-m2-t2-dialogue6.png" width="100%" style="cursor: pointer;"
+						alt="Julie presents her student card to the employee.">
+					</a>
+				</div>
+			</div>
+		</div>
+
+
 
 		<p>
 			Pratiquez la prononciation des mots de la conversation.
@@ -290,31 +301,30 @@
 		<p>
 			<b>Répondez aux supports du dialogue de la conversation.</b>
 		</p>
+
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						On voudrait deux billets aller-retour Montréal-Toronto pour samedi.
+					</p>
+				</div>
+				<div class="col">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Pourriez-vous nous redonner l’horaire des trains?
+					</p>
+				</div>
+				<div class="col">
+					<p>
+						<i class="fa fa-comment" aria-hidden="true"></i>
+						Êtes-vous étudiantes?
+					</p>
+				</div>
+			</div>
+		</div>
 		
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							On voudrait deux billets aller-retour Montréal-Toronto pour samedi.
-						</p>
-					</td>
-					<td>
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Pourriez-vous nous redonner l’horaire des trains?
-						</p>
-					</td>
-					<td>
-						<p>
-							<i class="fa fa-comment" aria-hidden="true"></i>
-							Êtes-vous étudiantes?
-						</p>
-					</td>
-				</tr>
-			</tbody>
-		</table>
 		
 		<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
 			allowfullscreen="allowfullscreen" allow="microphone"></iframe>
@@ -328,134 +338,137 @@
 			<b>Écoutez et répétez:</b>
 		</p>
 
-		<table class="table table-striped table-bordered table-hover">
-			<tbody>
-				<tr>
-					<td>
-						<table class="table table-striped table-bordered table-hover">
-							<tbody>
-								<tr>
-									<td>
-										<audio id="player17" src="../../assets/Audio/13 heures.mp3"></audio>
-										<button onfocus="document.getElementById('player17').play()">
-											<p>
-												<a onclick="document.getElementById('player17').play()">
-													<i class='fa fa-volume-up fa'></i>
-													13h
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player18" src="../../assets/Audio/11 heures.mp3"></audio>
-										<button onfocus="document.getElementById('player18').play()">
-											<p>
-												<a onclick="document.getElementById('player18').play()">
-													<i class='fa fa-volume-up fa'></i>
-													11h
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player19" src="../../assets/Audio/19 heures.mp3"></audio>
-										<button onfocus="document.getElementById('player19').play()">
-											<p>
-												<a onclick="document.getElementById('player19').play()">
-													<i class='fa fa-volume-up fa'></i>
-													19h
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player20" src="../../assets/Audio/15 heures.mp3"></audio>
-										<button onfocus="document.getElementById('player20').play()">
-											<p>
-												<a onclick="document.getElementById('player20').play()">
-													<i class='fa fa-volume-up fa'></i>
-													15h
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player21" src="../../assets/Audio/18 heures.mp3"></audio>
-										<button onfocus="document.getElementById('player21').play()">
-											<p>
-												<a onclick="document.getElementById('player21').play()">
-													<i class='fa fa-volume-up fa'></i>
-													18h
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player22" src="../../assets/Audio/20 heures.mp3"></audio>
-										<button onfocus="document.getElementById('player22').play()">
-											<p>
-												<a onclick="document.getElementById('player22').play()">
-													<i class='fa fa-volume-up fa'></i>
-													20h
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player23" src="../../assets/Audio/21 heures.mp3"></audio>
-										<button onfocus="document.getElementById('player23').play()">
-											<p>
-												<a onclick="document.getElementById('player23').play()">
-													<i class='fa fa-volume-up fa'></i>
-													21h
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<audio id="player24" src="../../assets/Audio/23 heures.mp3"></audio>
-										<button onfocus="document.getElementById('player24').play()">
-											<p>
-												<a onclick="document.getElementById('player24').play()">
-													<i class='fa fa-volume-up fa'></i>
-													23h
-												</a>
-											</p>
-										</button>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						
-						<p>
-							L’abréviation du mot heure est un h minuscule, mais on le prononce heure.
-						</p>
+		<div class="container">
+			<div class="row align-items-start">
+				<div class="col">
+					<table class="table table-striped table-bordered table-hover">
+						<caption>Pratiquez la prononciation</caption>
+						<thead>
+							<tr>
+								<th scope="col" width="100%">Expressions</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<audio id="player17" src="../../assets/Audio/13 heures.mp3"></audio>
+									<button onfocus="document.getElementById('player17').play()">
+										<p>
+											<a onclick="document.getElementById('player17').play()">
+												<i class='fa fa-volume-up fa'></i>
+												13h
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player18" src="../../assets/Audio/11 heures.mp3"></audio>
+									<button onfocus="document.getElementById('player18').play()">
+										<p>
+											<a onclick="document.getElementById('player18').play()">
+												<i class='fa fa-volume-up fa'></i>
+												11h
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player19" src="../../assets/Audio/19 heures.mp3"></audio>
+									<button onfocus="document.getElementById('player19').play()">
+										<p>
+											<a onclick="document.getElementById('player19').play()">
+												<i class='fa fa-volume-up fa'></i>
+												19h
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player20" src="../../assets/Audio/15 heures.mp3"></audio>
+									<button onfocus="document.getElementById('player20').play()">
+										<p>
+											<a onclick="document.getElementById('player20').play()">
+												<i class='fa fa-volume-up fa'></i>
+												15h
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player21" src="../../assets/Audio/18 heures.mp3"></audio>
+									<button onfocus="document.getElementById('player21').play()">
+										<p>
+											<a onclick="document.getElementById('player21').play()">
+												<i class='fa fa-volume-up fa'></i>
+												18h
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player22" src="../../assets/Audio/20 heures.mp3"></audio>
+									<button onfocus="document.getElementById('player22').play()">
+										<p>
+											<a onclick="document.getElementById('player22').play()">
+												<i class='fa fa-volume-up fa'></i>
+												20h
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player23" src="../../assets/Audio/21 heures.mp3"></audio>
+									<button onfocus="document.getElementById('player23').play()">
+										<p>
+											<a onclick="document.getElementById('player23').play()">
+												<i class='fa fa-volume-up fa'></i>
+												21h
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<audio id="player24" src="../../assets/Audio/23 heures.mp3"></audio>
+									<button onfocus="document.getElementById('player24').play()">
+										<p>
+											<a onclick="document.getElementById('player24').play()">
+												<i class='fa fa-volume-up fa'></i>
+												23h
+											</a>
+										</p>
+									</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>
+						L’abréviation du mot heure est un h minuscule, mais on le prononce heure.
+					</p>
+				</div>
+				<div class="col-6 col-sm-3" style="vertical-align: middle;">
+					<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
+						allowfullscreen="allowfullscreen" allow="microphone"></iframe>
+		
+					<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
+						charset="UTF-8"></script>
+				</div>
+			</div>
+		</div>
 
-					</td>
-					<td>
-						<iframe src="https://h5pstudio.ecampusontario.ca/h5p/26927/embed" width="993" height="514" frameborder="0"
-							allowfullscreen="allowfullscreen" allow="microphone"></iframe>
-						
-						<script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js"
-							charset="UTF-8"></script>
-					</td>
-				</tr>
-			</tbody>
-		</table>
 		
 
 		
